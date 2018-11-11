@@ -5,5 +5,8 @@
   "repository": "https://github.com/derjoker/dictionary.git",
   "author": "Feng Ya <fengya09@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  }
 }
