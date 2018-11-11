@@ -1,0 +1,9 @@
+{
+  "name": "dictionary",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/derjoker/dictionary.git",
+  "author": "Feng Ya <fengya09@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
