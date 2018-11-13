@@ -11,5 +11,5 @@ files.forEach(file => {
   const html = readFileSync(resolve(path, file))
   const $ = load(html)
   const entry = extract($)
-  console.log(entry.word)
+  console.log(JSON.stringify(entry, null, '  '))
 })

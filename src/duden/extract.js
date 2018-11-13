@@ -1,3 +1,5 @@
+const hash = require('object-hash')
+
 module.exports = function extract ($) {
   const word = $('section#block-system-main > h1').text().replace(/\u00AD/g, '')
   // console.log(word)
@@ -12,7 +14,7 @@ module.exports = function extract ($) {
     .map(section => {
       const parent = $(section.parentNode).clone()
       parent.children('figure').remove()
-      parent.children('section').remove()
+      parent.children('.term-section').remove()
       let definition = parent.html()
 
       const child = section.firstChild.next
@@ -53,9 +55,11 @@ module.exports = function extract ($) {
       // console.log(examples)
 
       return {
+        _id: hash(definition),
         definition,
         text: $.load(definition).text(),
         examples: examples.map(example => ({
+          _id: hash(example),
           example,
           text: $.load(example).text()
         }))
