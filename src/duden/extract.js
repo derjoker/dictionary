@@ -7,7 +7,7 @@ module.exports = function extract ($) {
   // console.log(frequency)
   // if (frequency < 3) return
 
-  const definitions = $('section.term-section')
+  const definitions = $('.term-section')
     .toArray()
     .map(section => {
       const parent = $(section.parentNode).clone()
