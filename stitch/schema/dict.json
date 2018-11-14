@@ -1,0 +1,50 @@
+{
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "word": {
+      "bsonType": "string"
+    },
+    "definitions": {
+      "bsonType": "array",
+      "items": {
+        "bsonType": "object",
+        "properties": {
+          "_id": {
+            "bsonType": "string"
+          },
+          "definition": {
+            "bsonType": "string"
+          },
+          "text": {
+            "bsonType": "string",
+            "description": "definition (text) for search"
+          },
+          "examples": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "object",
+              "properties": {
+                "_id": {
+                  "bsonType": "string"
+                },
+                "definition": {
+                  "bsonType": "string",
+                  "description": "overrides if available"
+                },
+                "example": {
+                  "bsonType": "string"
+                },
+                "text": {
+                  "bsonType": "string",
+                  "description": "example (text) for search"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
