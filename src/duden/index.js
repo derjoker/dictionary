@@ -33,7 +33,7 @@ files.forEach(file => {
     })
   } catch (error) {
     writeFileSync(log, file + '\n', { flag: 'a' })
-    // throw error
+    if (DEBUG) throw error
   }
 })
 

@@ -2,12 +2,6 @@ const hash = require('object-hash')
 
 module.exports = function extract ($) {
   const word = $('section#block-system-main > h1').text().replace(/\u00AD/g, '')
-  // console.log(word)
-
-  // const disabled = $('div > strong > span.disabled')
-  // const frequency = disabled && 5 - disabled.text().split('').length
-  // console.log(frequency)
-  // if (frequency < 3) return
 
   const definitions = $('.term-section')
     .toArray()
@@ -25,13 +19,11 @@ module.exports = function extract ($) {
 
       // no definition
       if (parent.text().trim() === '') {
-        definition = clone.children('span.iw_rumpf_info').first().html()
-        // console.log(definition)
-        examples = clone
-          .children('span.iwtext')
-          .toArray()
-          .map(span => $(span).html())
-        // console.log(examples)
+        if (clone.find('li').length) {
+          examples = clone.find('li').toArray().map(li => $(li).html())
+        } else {
+          examples = [clone.html()]
+        }
       } else {
         if (child) {
           switch (child.name) {

@@ -2,6 +2,33 @@ db = db.getSiblingDB("dictionary");
 db.duden.drop();
 db.duden.insertMany([
 {
+  "word": "Adam, der",
+  "definitions": [
+    {
+      "_id": "7a2dea0ea1f110277c3753daef31e599a351eb66",
+      "definition": "\n          \n            \n          \n        ",
+      "text": "",
+      "examples": [
+        {
+          "_id": "a57ca2073e39639e4fbcbf989f72881c14bc49d4",
+          "example": "<span class=\"iwtext\">bei Adam und Eva anfangen/beginnen</span> (<span class=\"iw_kopf_info\">umgangssprachlich:  </span><span class=\"iw_rumpf_info\"><span>in einem Vortrag, bei seinen Ausf&#xFC;hrungen sehr weit ausholen</span></span>)",
+          "text": "bei Adam und Eva anfangen/beginnen (umgangssprachlich:  in einem Vortrag, bei seinen Ausführungen sehr weit ausholen)"
+        },
+        {
+          "_id": "253ba1454dd3750bbea9ee6b191981c0a8a7e141",
+          "example": "<span class=\"iwtext\">seit Adams Zeiten</span> (<span class=\"iw_kopf_info\">umgangssprachlich:  </span><span class=\"iw_rumpf_info\"><span>seit je, von jeher, solange man denken kann</span></span>)",
+          "text": "seit Adams Zeiten (umgangssprachlich:  seit je, von jeher, solange man denken kann)"
+        },
+        {
+          "_id": "708b249c6efb0831dd184810427a5a4f91f1fdde",
+          "example": "<span class=\"iwtext\">von Adam und Eva abstammen</span> (<span class=\"iw_kopf_info\">umgangssprachlich:  </span><span class=\"iw_rumpf_info\"><span>[von Dingen] sehr alt sein</span></span>)",
+          "text": "von Adam und Eva abstammen (umgangssprachlich:  [von Dingen] sehr alt sein)"
+        }
+      ]
+    }
+  ]
+},
+{
   "word": "Gedanke, veraltet Gedanken, der",
   "definitions": [
     {
@@ -219,14 +246,14 @@ db.duden.insertMany([
       ]
     },
     {
-      "_id": "9ec440707e1c81514643931b8fd740ffb17455e9",
-      "definition": "<span>ein wenig: <span><span>der Mantel k&#xF6;nnte [um] einen Gedanken l&#xE4;nger sein</span></span></span>",
-      "text": "ein wenig: der Mantel könnte [um] einen Gedanken länger sein",
+      "_id": "7a2dea0ea1f110277c3753daef31e599a351eb66",
+      "definition": "\n          \n            \n          \n        ",
+      "text": "",
       "examples": [
         {
-          "_id": "a3f1eab3e28a5f6d9cffece62a804bfe23de67b6",
-          "example": "[um] einen Gedanken",
-          "text": "[um] einen Gedanken"
+          "_id": "ded9af74b39a1447f2bb367a1f37c5f0cc28c273",
+          "example": "<span class=\"iwtext\">[um] einen Gedanken</span> (<span class=\"iw_kopf_info\">landschaftlich:  </span><span class=\"iw_rumpf_info\"><span>ein wenig: <span><span>der Mantel k&#xF6;nnte [um] einen Gedanken l&#xE4;nger sein</span></span></span></span>)",
+          "text": "[um] einen Gedanken (landschaftlich:  ein wenig: der Mantel könnte [um] einen Gedanken länger sein)"
         }
       ]
     }
@@ -301,14 +328,14 @@ db.duden.insertMany([
       ]
     },
     {
-      "_id": "cb65de1356e8a9d2464fa6603593104aafbc6c9b",
-      "definition": "<span>[jemandem] entkommen, entgehen: <span><span>er ist der Polizei durch die Lappen gegangen</span></span>; <span><span>die Wohnung, das Gesch&#xE4;ft ist mir &#xE4;rgerlicherweise durch die Lappen gegangen</span></span></span>",
-      "text": "[jemandem] entkommen, entgehen: er ist der Polizei durch die Lappen gegangen; die Wohnung, das Geschäft ist mir ärgerlicherweise durch die Lappen gegangen",
+      "_id": "7a2dea0ea1f110277c3753daef31e599a351eb66",
+      "definition": "\n          \n            \n          \n        ",
+      "text": "",
       "examples": [
         {
-          "_id": "c9630e47650693c8b96269380da3ff0cce2d5be8",
-          "example": "jemandem durch die Lappen gehen",
-          "text": "jemandem durch die Lappen gehen"
+          "_id": "dec6fdd9d45b2b4275daf4ab4417b0b7dfd6e691",
+          "example": "<span class=\"iwtext\">jemandem durch die Lappen gehen</span> (<span class=\"iw_kopf_info\">umgangssprachlich:  </span><span class=\"iw_rumpf_info\"><span>[jemandem] entkommen, entgehen: <span><span>er ist der Polizei durch die Lappen gegangen</span></span>; <span><span>die Wohnung, das Gesch&#xE4;ft ist mir &#xE4;rgerlicherweise durch die Lappen gegangen</span></span></span></span>)",
+          "text": "jemandem durch die Lappen gehen (umgangssprachlich:  [jemandem] entkommen, entgehen: er ist der Polizei durch die Lappen gegangen; die Wohnung, das Geschäft ist mir ärgerlicherweise durch die Lappen gegangen)"
         }
       ]
     }
@@ -438,14 +465,14 @@ db.duden.insertMany([
       ]
     },
     {
-      "_id": "c75b5fe7b17b0a708fc85381dcc6d03242dbb3b1",
-      "definition": "<span>aussehen: <span><span>sie ist in diesem Kleid h&#xFC;bsch anzusehen</span></span>; <span><span>der Verletzte war schrecklich anzusehen</span></span></span>",
-      "text": "aussehen: sie ist in diesem Kleid hübsch anzusehen; der Verletzte war schrecklich anzusehen",
+      "_id": "91c285df3aa0e481a7320b3bc6018b19069d8112",
+      "definition": "\n              \n                \n              \n            ",
+      "text": "",
       "examples": [
         {
-          "_id": "bca8b42af11d5e1c5ea8cd3543b6c50e2a264765",
-          "example": "anzusehen sein",
-          "text": "anzusehen sein"
+          "_id": "5bda13f3918276e16349d2cfb72e1609a418945d",
+          "example": "<span class=\"iwtext\">anzusehen sein</span> (<span class=\"iw_rumpf_info\"><span>aussehen: <span><span>sie ist in diesem Kleid h&#xFC;bsch anzusehen</span></span>; <span><span>der Verletzte war schrecklich anzusehen</span></span></span></span>)",
+          "text": "anzusehen sein (aussehen: sie ist in diesem Kleid hübsch anzusehen; der Verletzte war schrecklich anzusehen)"
         }
       ]
     },
