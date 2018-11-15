@@ -1,6 +1,18 @@
 const hash = require('object-hash')
 
 module.exports = function extract ($) {
+  function parseExample (el) {
+    const clone = $(el).clone()
+    const example = $(el).find('.iwtext').text().trim()
+    clone.children('.iwtext').remove()
+    const definition = clone.text().trim()
+
+    return {
+      example,
+      definition
+    }
+  }
+
   const word = $('section#block-system-main > h1').text().replace(/\u00AD/g, '')
 
   const definitions = $('.term-section')
@@ -9,7 +21,7 @@ module.exports = function extract ($) {
       const parent = $(section.parentNode).clone()
       parent.children('figure').remove()
       parent.children('.term-section').remove()
-      let definition = parent.html()
+      let definition = parent.text().trim()
 
       const child = section.firstChild.next
       const clone = $(section).clone()
@@ -18,11 +30,11 @@ module.exports = function extract ($) {
       let examples = []
 
       // no definition
-      if (parent.text().trim() === '') {
+      if (definition === '') {
         if (clone.find('li').length) {
-          examples = clone.find('li').toArray().map(li => $(li).html())
+          examples = clone.find('li').toArray().map(li => parseExample(li))
         } else {
-          examples = [clone.html()]
+          examples = [parseExample(clone)]
         }
       } else {
         if (child) {
@@ -35,27 +47,25 @@ module.exports = function extract ($) {
               examples = $(child)
                 .children()
                 .toArray()
-                .map(li => $.load(li).html())
+                .map(li => ({ example: $.load(li).text().trim() }))
               break
             default:
-              examples = [clone.html()]
+              examples = [{ example: clone.text().trim() }]
               break
           }
         }
       }
-      // console.log(definition)
-      // console.log(examples)
 
-      return {
-        _id: hash(definition),
+      const entry = {
         definition,
-        text: $.load(definition).text(),
-        examples: examples.map(example => ({
-          _id: hash(example),
-          example,
-          text: $.load(example).text()
-        }))
+        examples: examples.map(example => {
+          example._id = hash(example)
+          return example
+        })
       }
+      entry._id = hash(entry)
+
+      return entry
     })
     .filter(definition => definition.examples.length > 0)
 

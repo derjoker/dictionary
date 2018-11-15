@@ -6,6 +6,9 @@
     "word": {
       "bsonType": "string"
     },
+    "stem": {
+      "bsonType": "string"
+    },
     "definitions": {
       "bsonType": "array",
       "items": {
@@ -17,10 +20,6 @@
           "definition": {
             "bsonType": "string"
           },
-          "text": {
-            "bsonType": "string",
-            "description": "definition (text) for search"
-          },
           "examples": {
             "bsonType": "array",
             "items": {
@@ -29,16 +28,12 @@
                 "_id": {
                   "bsonType": "string"
                 },
-                "definition": {
-                  "bsonType": "string",
-                  "description": "overrides if available"
-                },
                 "example": {
                   "bsonType": "string"
                 },
-                "text": {
+                "definition": {
                   "bsonType": "string",
-                  "description": "example (text) for search"
+                  "description": "overrides if available"
                 }
               }
             }

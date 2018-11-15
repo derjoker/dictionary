@@ -5,26 +5,25 @@ db.duden.insertMany([
   "word": "Adam, der",
   "definitions": [
     {
-      "_id": "7a2dea0ea1f110277c3753daef31e599a351eb66",
-      "definition": "\n          \n            \n          \n        ",
-      "text": "",
+      "definition": "",
       "examples": [
         {
-          "_id": "a57ca2073e39639e4fbcbf989f72881c14bc49d4",
-          "example": "<span class=\"iwtext\">bei Adam und Eva anfangen/beginnen</span> (<span class=\"iw_kopf_info\">umgangssprachlich:  </span><span class=\"iw_rumpf_info\"><span>in einem Vortrag, bei seinen Ausf&#xFC;hrungen sehr weit ausholen</span></span>)",
-          "text": "bei Adam und Eva anfangen/beginnen (umgangssprachlich:  in einem Vortrag, bei seinen Ausführungen sehr weit ausholen)"
+          "example": "bei Adam und Eva anfangen/beginnen",
+          "definition": "(umgangssprachlich:  in einem Vortrag, bei seinen Ausführungen sehr weit ausholen)",
+          "_id": "e556a5870c469231a649c7a5ab5482c68116a216"
         },
         {
-          "_id": "253ba1454dd3750bbea9ee6b191981c0a8a7e141",
-          "example": "<span class=\"iwtext\">seit Adams Zeiten</span> (<span class=\"iw_kopf_info\">umgangssprachlich:  </span><span class=\"iw_rumpf_info\"><span>seit je, von jeher, solange man denken kann</span></span>)",
-          "text": "seit Adams Zeiten (umgangssprachlich:  seit je, von jeher, solange man denken kann)"
+          "example": "seit Adams Zeiten",
+          "definition": "(umgangssprachlich:  seit je, von jeher, solange man denken kann)",
+          "_id": "8d14c48e6fedffd995263d69ebf606e27229ed29"
         },
         {
-          "_id": "708b249c6efb0831dd184810427a5a4f91f1fdde",
-          "example": "<span class=\"iwtext\">von Adam und Eva abstammen</span> (<span class=\"iw_kopf_info\">umgangssprachlich:  </span><span class=\"iw_rumpf_info\"><span>[von Dingen] sehr alt sein</span></span>)",
-          "text": "von Adam und Eva abstammen (umgangssprachlich:  [von Dingen] sehr alt sein)"
+          "example": "von Adam und Eva abstammen",
+          "definition": "(umgangssprachlich:  [von Dingen] sehr alt sein)",
+          "_id": "c6264f71c5013e68a1d55c69b97236be597ba623"
         }
-      ]
+      ],
+      "_id": "b08272bbaef2646b7bddbc32ba9c215cb1657463"
     }
   ]
 },
@@ -32,230 +31,189 @@ db.duden.insertMany([
   "word": "Gedanke, veraltet Gedanken, der",
   "definitions": [
     {
-      "_id": "173ea8f07c31d9b1312532b45cf50252659ec370",
-      "definition": "\n              etwas, was gedacht wird, gedacht worden ist; &#xDC;berlegung\n            ",
-      "text": "etwas, was gedacht wird, gedacht worden ist; Überlegung\n            ",
+      "definition": "etwas, was gedacht wird, gedacht worden ist; Überlegung",
       "examples": [
         {
-          "_id": "d79ab8cc0c445df966627182e1e3888561683307",
-          "example": "<li><span><span>gute, vern&#xFC;nftige Gedanken</span></span></li>",
-          "text": "gute, vernünftige Gedanken"
+          "example": "gute, vernünftige Gedanken",
+          "_id": "ed17e02575d9a5943daeecdfa97a7567338a8635"
         },
         {
-          "_id": "ecc42d6561b412e6761fa77aa8885b747b34b126",
-          "example": "<li><span><span>dieser Gedanke liegt mir fern, verfolgt mich, tr&#xF6;stet mich</span></span></li>",
-          "text": "dieser Gedanke liegt mir fern, verfolgt mich, tröstet mich"
+          "example": "dieser Gedanke liegt mir fern, verfolgt mich, tröstet mich",
+          "_id": "b0e739f54bc8ff125f42eede38b2aec5129703aa"
         },
         {
-          "_id": "fb2c9b292444e6997cc503d9261ffc5233513402",
-          "example": "<li><span><span>ein Gedanke ging mir durch den Kopf</span></span></li>",
-          "text": "ein Gedanke ging mir durch den Kopf"
+          "example": "ein Gedanke ging mir durch den Kopf",
+          "_id": "3bd2d6491234cfb48a19e0e4daa80bb03439ff59"
         },
         {
-          "_id": "d660d8ff8641d5782df59b059aad4364c6d3bc52",
-          "example": "<li><span><span>mir dr&#xE4;ngt sich der Gedanke auf, dass das nicht stimmt</span></span></li>",
-          "text": "mir drängt sich der Gedanke auf, dass das nicht stimmt"
+          "example": "mir drängt sich der Gedanke auf, dass das nicht stimmt",
+          "_id": "3aeb2c596854488d265bb425515b8e405d69b29d"
         },
         {
-          "_id": "36dc6ee9f62e997277fbac0e96ef8fff9fc78456",
-          "example": "<li><span><span>einen Gedanken fassen, aufgreifen, fallen lassen, in Worte kleiden, zu Ende denken, nicht mehr loswerden</span></span></li>",
-          "text": "einen Gedanken fassen, aufgreifen, fallen lassen, in Worte kleiden, zu Ende denken, nicht mehr loswerden"
+          "example": "einen Gedanken fassen, aufgreifen, fallen lassen, in Worte kleiden, zu Ende denken, nicht mehr loswerden",
+          "_id": "1737ccc304c9000c7f61ad33d9dcafd3ce8f4d72"
         },
         {
-          "_id": "82f19bbf395e93ee8b3494ce6c369325e78b136a",
-          "example": "<li><span><span>Gedanken an jemanden, etwas verschwenden</span></span></li>",
-          "text": "Gedanken an jemanden, etwas verschwenden"
+          "example": "Gedanken an jemanden, etwas verschwenden",
+          "_id": "13bf2b6c95ac9b01d9634b992f5bcd11e86da08e"
         },
         {
-          "_id": "0b24c2c60478b127afcceb9023a1a4614ac08cbb",
-          "example": "<li><span><span>auf einen Gedanken kommen, verfallen</span></span></li>",
-          "text": "auf einen Gedanken kommen, verfallen"
+          "example": "auf einen Gedanken kommen, verfallen",
+          "_id": "c0f14caee595acd0a04a6df5fe29d24079639dba"
         },
         {
-          "_id": "647222d6ff26ff86c2b00f1ef0a047751a1f7a56",
-          "example": "<li><span><span>es ist mir ein schrecklicher Gedanke <em>(eine schreckliche Vorstellung), </em>dass du ver&#xE4;rgert bist</span></span></li>",
-          "text": "es ist mir ein schrecklicher Gedanke (eine schreckliche Vorstellung), dass du verärgert bist"
+          "example": "es ist mir ein schrecklicher Gedanke (eine schreckliche Vorstellung), dass du verärgert bist",
+          "_id": "bf9b7ae467560d70990ae5da4e7a53d2c48cbb89"
         },
         {
-          "_id": "9d5be21903b2518337b82410f13180252e1528a0",
-          "example": "<li><span><span>seine Gedanken sammeln</span></span> <em>(sich konzentrieren)</em></li>",
-          "text": "seine Gedanken sammeln (sich konzentrieren)"
+          "example": "seine Gedanken sammeln (sich konzentrieren)",
+          "_id": "8647d3ec8c67e2c5b47a018b75ee581ef6d58b84"
         },
         {
-          "_id": "92a53f98783d715915a98f7947d19d9c332aecb0",
-          "example": "<li><span><span>seinen Gedanken nachh&#xE4;ngen, sich seinen Gedanken &#xFC;berlassen</span></span> <em>([nach]sinnen)</em></li>",
-          "text": "seinen Gedanken nachhängen, sich seinen Gedanken überlassen ([nach]sinnen)"
+          "example": "seinen Gedanken nachhängen, sich seinen Gedanken überlassen ([nach]sinnen)",
+          "_id": "06d2671826a8e3db4fe8e94bcc06b4c802a5643c"
         },
         {
-          "_id": "1d05ab7f3ad227a6a2d4d400d29331a8e2e15a01",
-          "example": "<li><span><span>sich an einen Gedanken klammern</span></span> <em>(&#xE4;ngstlich, krampfhaft daran festhalten und Hoffnung damit verbinden)</em></li>",
-          "text": "sich an einen Gedanken klammern (ängstlich, krampfhaft daran festhalten und Hoffnung damit verbinden)"
+          "example": "sich an einen Gedanken klammern (ängstlich, krampfhaft daran festhalten und Hoffnung damit verbinden)",
+          "_id": "45a8065ac0cae4a74949e69c990f8efd586976f8"
         },
         {
-          "_id": "d209cdb9f3268b26233d5e29765e2ff2c24634c9",
-          "example": "<li><span><span>jemanden auf andere Gedanken bringen</span></span> <em>(jemanden ablenken)</em></li>",
-          "text": "jemanden auf andere Gedanken bringen (jemanden ablenken)"
+          "example": "jemanden auf andere Gedanken bringen (jemanden ablenken)",
+          "_id": "dc7db9f0fc1d295319f3a82ab5a1bfbdcb65ede9"
         },
         {
-          "_id": "b72f0d8d7668030a767dabc5778ecb3ce404bc29",
-          "example": "<li><span><span>[ganz] in Gedanken verloren, versunken sein</span></span></li>",
-          "text": "[ganz] in Gedanken verloren, versunken sein"
+          "example": "[ganz] in Gedanken verloren, versunken sein",
+          "_id": "be07db860e3acd8e1fd80e813b691a61a8e32894"
         },
         {
-          "_id": "d65ee5b8092738cec85e952a22871b2125edc110",
-          "example": "<li><span><span>ich war [ganz] in Gedanken</span></span> <em>(gedankenverloren, zerstreut, habe nicht aufgepasst)</em></li>",
-          "text": "ich war [ganz] in Gedanken (gedankenverloren, zerstreut, habe nicht aufgepasst)"
+          "example": "ich war [ganz] in Gedanken (gedankenverloren, zerstreut, habe nicht aufgepasst)",
+          "_id": "0e8907a8da927d01db568e025936df7f43188fe6"
         },
         {
-          "_id": "7b5f71644632526f4c3af5ce7a239481ae0c5822",
-          "example": "<li><span><span>das habe ich in Gedanken <em>(ohne es zu wollen, zu wissen) </em>getan</span></span></li>",
-          "text": "das habe ich in Gedanken (ohne es zu wollen, zu wissen) getan"
+          "example": "das habe ich in Gedanken (ohne es zu wollen, zu wissen) getan",
+          "_id": "d5caa53a402748e081b83903c99ce73490e03f46"
         },
         {
-          "_id": "6d303b1ece55660fdfcaab3dbc78d87dbda4d500",
-          "example": "<li><span><span>mit seinen Gedanken woanders, nicht bei der Sache sein</span></span> <em>(gedankenverloren, unaufmerksam sein)</em></li>",
-          "text": "mit seinen Gedanken woanders, nicht bei der Sache sein (gedankenverloren, unaufmerksam sein)"
+          "example": "mit seinen Gedanken woanders, nicht bei der Sache sein (gedankenverloren, unaufmerksam sein)",
+          "_id": "b04a01676c964c16509cf17238c4aee94f8c3948"
         }
-      ]
+      ],
+      "_id": "3b80fb57a388f5945a668f4bdf4cfe8aaac3d316"
     },
     {
-      "_id": "173ea8f07c31d9b1312532b45cf50252659ec370",
-      "definition": "\n              etwas, was gedacht wird, gedacht worden ist; &#xDC;berlegung\n            ",
-      "text": "etwas, was gedacht wird, gedacht worden ist; Überlegung\n            ",
+      "definition": "etwas, was gedacht wird, gedacht worden ist; Überlegung",
       "examples": [
         {
-          "_id": "14e15bc5571efe0a07213fdaf16a43aa0a37d75c",
-          "example": "<li><span class=\"iwtext\">[jemandes] Gedanken lesen [k&#xF6;nnen]</span> (<span class=\"iw_rumpf_info\"><span>[jemandes] Gedanken erraten [k&#xF6;nnen]</span></span>)</li>",
-          "text": "[jemandes] Gedanken lesen [können] ([jemandes] Gedanken erraten [können])"
+          "example": "[jemandes] Gedanken lesen [können] ([jemandes] Gedanken erraten [können])",
+          "_id": "687c4283e1bd0a6a2c187f6286a3e2cc2d4d4da6"
         },
         {
-          "_id": "321b53393e542b53a078aa9d00ed3595b560e6e7",
-          "example": "<li><span class=\"iwtext\">sich <span>&lt;Dativ&gt;</span> Gedanken [&#xFC;ber jemanden, etwas/wegen jemandes, etwas] machen</span> (<span class=\"iw_rumpf_info\"><span>sich [um jemanden, etwas] sorgen</span></span>)</li>",
-          "text": "sich <Dativ> Gedanken [über jemanden, etwas/wegen jemandes, etwas] machen (sich [um jemanden, etwas] sorgen)"
+          "example": "sich <Dativ> Gedanken [über jemanden, etwas/wegen jemandes, etwas] machen (sich [um jemanden, etwas] sorgen)",
+          "_id": "4ff584d97cffc1a3fdd6b1d56787c0950c42ed3a"
         },
         {
-          "_id": "ad371d06e11f7c6123068215cd3281fa944fc741",
-          "example": "<li><span class=\"iwtext\">sich <span>&lt;Dativ&gt;</span> &#xFC;ber etwas Gedanken machen</span> (<span class=\"iw_rumpf_info\"><span>&#xFC;ber etwas l&#xE4;nger nachdenken</span></span>)</li>",
-          "text": "sich <Dativ> über etwas Gedanken machen (über etwas länger nachdenken)"
+          "example": "sich <Dativ> über etwas Gedanken machen (über etwas länger nachdenken)",
+          "_id": "60003cdc40d3e66351d1691c76c838597e7e080b"
         },
         {
-          "_id": "38f4ed93aab692616a2c6c876ae7cb2ba44b8c11",
-          "example": "<li><span class=\"iwtext\">Gedanken sind [zoll]frei</span> (<span class=\"iw_rumpf_info\"><span>was man denkt, kann einem keiner vorschreiben</span></span>)</li>",
-          "text": "Gedanken sind [zoll]frei (was man denkt, kann einem keiner vorschreiben)"
+          "example": "Gedanken sind [zoll]frei (was man denkt, kann einem keiner vorschreiben)",
+          "_id": "b3b9b5a6bada5b91c47fd30298f48e3b56e5d55a"
         },
         {
-          "_id": "83b15f9f43bc0f26d9cbaabf65a69a3b997a7e20",
-          "example": "<li><span class=\"iwtext\">der erste Gedanke ist nicht immer der beste</span> </li>",
-          "text": "der erste Gedanke ist nicht immer der beste "
+          "example": "der erste Gedanke ist nicht immer der beste",
+          "_id": "b505394b36633d190504042f838e5879922a36f6"
         }
-      ]
+      ],
+      "_id": "c5047dc7f72d8a51341a510e8a8431be900dcfb0"
     },
     {
-      "_id": "705f3f5fade7721f4fc687eb4771d9de8b67ef0e",
-      "definition": "\n              das Denken an etwas\n            ",
-      "text": "das Denken an etwas\n            ",
+      "definition": "das Denken an etwas",
       "examples": [
         {
-          "_id": "e1d869468813da59351dbc5e274d0057b1abe3e5",
-          "example": "<li><span><span>bei dem Gedanken [daran] wurde ihr unheimlich zumute</span></span></li>",
-          "text": "bei dem Gedanken [daran] wurde ihr unheimlich zumute"
+          "example": "bei dem Gedanken [daran] wurde ihr unheimlich zumute",
+          "_id": "d5e50fc03bce165bf81397a6b68a8eb8d767717f"
         },
         {
-          "_id": "261909cd7abb1be1f94cf11ae50bc4a96619c702",
-          "example": "<li><span><span>der blo&#xDF;e Gedanke [daran] macht ihn w&#xFC;tend</span></span></li>",
-          "text": "der bloße Gedanke [daran] macht ihn wütend"
+          "example": "der bloße Gedanke [daran] macht ihn wütend",
+          "_id": "e726cc5b8bd3838b93d67c9f6c902a73a2f97f53"
         }
-      ]
+      ],
+      "_id": "c229de21888b02803bc9d05ce617af7cb0b261a2"
     },
     {
-      "_id": "705f3f5fade7721f4fc687eb4771d9de8b67ef0e",
-      "definition": "\n              das Denken an etwas\n            ",
-      "text": "das Denken an etwas\n            ",
+      "definition": "das Denken an etwas",
       "examples": [
         {
-          "_id": "6c64ddc11f3300aa24f988f1a80adb3ae91fd2e4",
-          "example": "<span class=\"iwtext\">kein Gedanke [daran]!</span> (<span class=\"iw_kopf_info\">umgangssprachlich:  </span><span class=\"iw_rumpf_info\"><span>keinesfalls, unm&#xF6;glich, das kommt nicht infrage!</span></span>)",
-          "text": "kein Gedanke [daran]! (umgangssprachlich:  keinesfalls, unmöglich, das kommt nicht infrage!)"
+          "example": "kein Gedanke [daran]! (umgangssprachlich:  keinesfalls, unmöglich, das kommt nicht infrage!)",
+          "_id": "dce5c1d214bda109a4317d96a042e3a885ce303a"
         }
-      ]
+      ],
+      "_id": "c89839ec6a9cc8ae49747a7134498aecea256a6e"
     },
     {
-      "_id": "d551686ea838f8b21cde34c59136e5d84808b53d",
-      "definition": "\n          Meinung, Ansicht\n        ",
-      "text": "Meinung, Ansicht\n        ",
+      "definition": "Meinung, Ansicht",
       "examples": [
         {
-          "_id": "85aa0d55f288ab3fde8b11e23f19c71da19efb1c",
-          "example": "<li><span><span>&#xFC;ber etwas seine eigenen Gedanken haben</span></span></li>",
-          "text": "über etwas seine eigenen Gedanken haben"
+          "example": "über etwas seine eigenen Gedanken haben",
+          "_id": "969b4916ba9fd94d260f96ac7740eebd663290ad"
         },
         {
-          "_id": "cb5129923790192cfa4b84b77fe426286e24ffd7",
-          "example": "<li><span><span>sie tauschten ihre Gedanken [&#xFC;ber das Buch] aus</span></span></li>",
-          "text": "sie tauschten ihre Gedanken [über das Buch] aus"
+          "example": "sie tauschten ihre Gedanken [über das Buch] aus",
+          "_id": "d4c57f7c1f5aa2c177b811a711affc2cdb1e3eea"
         }
-      ]
+      ],
+      "_id": "d6ec27e56f5e5c30d03d0132fc729931e84aebcd"
     },
     {
-      "_id": "0313fb3cb0b786022cf2ca03227e09521b0a9b6d",
-      "definition": "\n          Einfall; Plan, Absicht\n        ",
-      "text": "Einfall; Plan, Absicht\n        ",
+      "definition": "Einfall; Plan, Absicht",
       "examples": [
         {
-          "_id": "48c15bb0e1cf87ae327c88e9dd510a4ebbb39a8d",
-          "example": "<li><span><span>ein verwegener, gro&#xDF;artiger Gedanke</span></span></li>",
-          "text": "ein verwegener, großartiger Gedanke"
+          "example": "ein verwegener, großartiger Gedanke",
+          "_id": "fd694be8f50ac3402e7e5d4a3ff4939acc9b1c79"
         },
         {
-          "_id": "4dc83b39ed914bde18df732613f9fc635b0b317d",
-          "example": "<li><span><span>da kam ihr ein rettender Gedanke</span></span></li>",
-          "text": "da kam ihr ein rettender Gedanke"
+          "example": "da kam ihr ein rettender Gedanke",
+          "_id": "99d5a879c470aa1900817c3095c9f3285106ebdb"
         },
         {
-          "_id": "04d2425bef50ffa73953f59e403db6d1770d3613",
-          "example": "<li><span><span>einen Gedanken in die Tat umsetzen</span></span></li>",
-          "text": "einen Gedanken in die Tat umsetzen"
+          "example": "einen Gedanken in die Tat umsetzen",
+          "_id": "ec2b01e19a4310b848d17b7efca275ac83cc6247"
         },
         {
-          "_id": "692e1719041ce4ffa18699998533cf36e971c69e",
-          "example": "<li><span><span>das bringt mich auf einen Gedanken</span></span></li>",
-          "text": "das bringt mich auf einen Gedanken"
+          "example": "das bringt mich auf einen Gedanken",
+          "_id": "6af9ad4b52577cb3dd929c8e9fa2bf4e04262532"
         },
         {
-          "_id": "5113b805dc62542418495054189db89eca28abda",
-          "example": "<li>(umgangssprachlich) <span><span>auf dumme Gedanken kommen</span></span> <em>(etwas Falsches, Unkluges oder Unerw&#xFC;nschtes tun)</em></li>",
-          "text": "(umgangssprachlich) auf dumme Gedanken kommen (etwas Falsches, Unkluges oder Unerwünschtes tun)"
+          "example": "(umgangssprachlich) auf dumme Gedanken kommen (etwas Falsches, Unkluges oder Unerwünschtes tun)",
+          "_id": "e220272043bf48c376409de5c8d26a22d2299a0c"
         }
-      ]
+      ],
+      "_id": "f4620d83e304b6c6505ad6aef2d300d3ab08b21f"
     },
     {
-      "_id": "56125461b959f6439020e54046654bf72831174d",
-      "definition": "\n          Begriff, Idee\n        ",
-      "text": "Begriff, Idee\n        ",
+      "definition": "Begriff, Idee",
       "examples": [
         {
-          "_id": "f570dac2a74480ed793ac61b36c26d16c61f91f6",
-          "example": "<li><span><span>der [tragende] Gedanke eines vereinten Europas</span></span></li>",
-          "text": "der [tragende] Gedanke eines vereinten Europas"
+          "example": "der [tragende] Gedanke eines vereinten Europas",
+          "_id": "e7b524b86481de0ece84956c793c780839459e63"
         },
         {
-          "_id": "b6bff4c5514f2cccfc3e3f8920c4bdbe01683bac",
-          "example": "<li><span><span>der Gedanke der Freiheit</span></span></li>",
-          "text": "der Gedanke der Freiheit"
+          "example": "der Gedanke der Freiheit",
+          "_id": "794e06173c05bbb3242ab4579724d0be2a8ba798"
         }
-      ]
+      ],
+      "_id": "22ff75a1b79f7f26ed102bd0422207b7604ca4ca"
     },
     {
-      "_id": "7a2dea0ea1f110277c3753daef31e599a351eb66",
-      "definition": "\n          \n            \n          \n        ",
-      "text": "",
+      "definition": "",
       "examples": [
         {
-          "_id": "ded9af74b39a1447f2bb367a1f37c5f0cc28c273",
-          "example": "<span class=\"iwtext\">[um] einen Gedanken</span> (<span class=\"iw_kopf_info\">landschaftlich:  </span><span class=\"iw_rumpf_info\"><span>ein wenig: <span><span>der Mantel k&#xF6;nnte [um] einen Gedanken l&#xE4;nger sein</span></span></span></span>)",
-          "text": "[um] einen Gedanken (landschaftlich:  ein wenig: der Mantel könnte [um] einen Gedanken länger sein)"
+          "example": "[um] einen Gedanken",
+          "definition": "(landschaftlich:  ein wenig: der Mantel könnte [um] einen Gedanken länger sein)",
+          "_id": "3010b41d3fc71c5882a3feeda460a786cf1597af"
         }
-      ]
+      ],
+      "_id": "2c8c0692a58cd115f34aa2eb38bfe84d5d65324d"
     }
   ]
 },
@@ -263,81 +221,69 @@ db.duden.insertMany([
   "word": "Lappen, der",
   "definitions": [
     {
-      "_id": "1393beb1e8adb24fdc6be874fa32ba6179aaa505",
-      "definition": "\n          [minderwertiges] kleineres St&#xFC;ck Stoff, Leder o.&#x2002;&#xC4;.\n        ",
-      "text": "[minderwertiges] kleineres Stück Stoff, Leder o. Ä.\n        ",
+      "definition": "[minderwertiges] kleineres Stück Stoff, Leder o. Ä.",
       "examples": [
         {
-          "_id": "90f41436044517218f848127ae40b78c53e80e18",
-          "example": "<li><span><span>einen Lappen auswaschen, auswringen</span></span></li>",
-          "text": "einen Lappen auswaschen, auswringen"
+          "example": "einen Lappen auswaschen, auswringen",
+          "_id": "c9908580c95554a5eb09f403c3145016645ecda1"
         },
         {
-          "_id": "24673fabb3e230d7051dd6f8b771c5a2acbfb735",
-          "example": "<li><span><span>etwas mit einem Lappen s&#xE4;ubern, blank polieren, umwickeln, zustopfen, flicken</span></span></li>",
-          "text": "etwas mit einem Lappen säubern, blank polieren, umwickeln, zustopfen, flicken"
+          "example": "etwas mit einem Lappen säubern, blank polieren, umwickeln, zustopfen, flicken",
+          "_id": "0e63362094f201ab2af65239537e305b6d2666cb"
         }
-      ]
+      ],
+      "_id": "199ff1e000939bfa973fd8889afd759092246798"
     },
     {
-      "_id": "598bcbc74d943c501a17656bdd61e715aa61b3d6",
-      "definition": "\n              Geldschein [mit gr&#xF6;&#xDF;erem Wert]<div class=\"Besonderheiten\"><h3>Gebrauch</h3><p>salopp</p></div>\n            ",
-      "text": "Geldschein [mit größerem Wert]Gebrauchsalopp\n            ",
+      "definition": "Geldschein [mit größerem Wert]Gebrauchsalopp",
       "examples": [
         {
-          "_id": "cc47c1e75643cd9794d81e6147508bec2c240c6f",
-          "example": "<span><span>f&#xFC;r die paar Lappen rei&#xDF; ich mir doch kein Bein aus!</span></span>",
-          "text": "für die paar Lappen reiß ich mir doch kein Bein aus!"
+          "example": "für die paar Lappen reiß ich mir doch kein Bein aus!",
+          "_id": "788b370619adc24cd632fa3e0566c596c8d51fde"
         }
-      ]
+      ],
+      "_id": "741ac11ef7dc4ca7a6804da5236839a89f7be4b5"
     },
     {
-      "_id": "63ea11087376b3030ff0d7549f9a4ec93b35ed8f",
-      "definition": "\n              F&#xFC;hrerschein, Fahrerlaubnis<div class=\"Besonderheiten\"><h3>Gebrauch</h3><p>salopp</p></div>\n            ",
-      "text": "Führerschein, FahrerlaubnisGebrauchsalopp\n            ",
+      "definition": "Führerschein, FahrerlaubnisGebrauchsalopp",
       "examples": [
         {
-          "_id": "a2e1a7956102bb029ca85fea04cd3783c8ed1f02",
-          "example": "<span><span>er muss seinen Lappen f&#xFC;r einen Monat abgeben</span></span>",
-          "text": "er muss seinen Lappen für einen Monat abgeben"
+          "example": "er muss seinen Lappen für einen Monat abgeben",
+          "_id": "3e9bde3fe537e78d96e20d0fc5164cf88fc1191b"
         }
-      ]
+      ],
+      "_id": "86508b3311c058e7c41ea4adba686d93afdf281e"
     },
     {
-      "_id": "098b5e8017e39b127b7b4135409c53c431cfdf3e",
-      "definition": "\n              [herunterh&#xE4;ngendes] St&#xFC;ck Haut am tierischen K&#xF6;rper\n            ",
-      "text": "[herunterhängendes] Stück Haut am tierischen Körper\n            ",
+      "definition": "[herunterhängendes] Stück Haut am tierischen Körper",
       "examples": [
         {
-          "_id": "90c112b6b74256340998dbc8d8a0c6bcb2b4a10c",
-          "example": "<span><span>die Lappen eines Truthahns</span></span>",
-          "text": "die Lappen eines Truthahns"
+          "example": "die Lappen eines Truthahns",
+          "_id": "242ef465b84409851ee2f41f41ccf0b859104afa"
         }
-      ]
+      ],
+      "_id": "b358223dcf74d0e402c2dabc2504f067e4364388"
     },
     {
-      "_id": "b16bfb1f2bd681477eb90c6dbd12b056c164bf7c",
-      "definition": "\n              fl&#xE4;chiger Teil eines Organs\n            ",
-      "text": "flächiger Teil eines Organs\n            ",
+      "definition": "flächiger Teil eines Organs",
       "examples": [
         {
-          "_id": "cdbb3239a506ac864ff0d572f505c0ae73ac2052",
-          "example": "<span><span>der rechte Lappen der Lunge</span></span>",
-          "text": "der rechte Lappen der Lunge"
+          "example": "der rechte Lappen der Lunge",
+          "_id": "4eb3857ebb2ebda446b1972e488e28033d51dd0a"
         }
-      ]
+      ],
+      "_id": "b164e24f741c02e8982e66c4d98384831c025c01"
     },
     {
-      "_id": "7a2dea0ea1f110277c3753daef31e599a351eb66",
-      "definition": "\n          \n            \n          \n        ",
-      "text": "",
+      "definition": "",
       "examples": [
         {
-          "_id": "dec6fdd9d45b2b4275daf4ab4417b0b7dfd6e691",
-          "example": "<span class=\"iwtext\">jemandem durch die Lappen gehen</span> (<span class=\"iw_kopf_info\">umgangssprachlich:  </span><span class=\"iw_rumpf_info\"><span>[jemandem] entkommen, entgehen: <span><span>er ist der Polizei durch die Lappen gegangen</span></span>; <span><span>die Wohnung, das Gesch&#xE4;ft ist mir &#xE4;rgerlicherweise durch die Lappen gegangen</span></span></span></span>)",
-          "text": "jemandem durch die Lappen gehen (umgangssprachlich:  [jemandem] entkommen, entgehen: er ist der Polizei durch die Lappen gegangen; die Wohnung, das Geschäft ist mir ärgerlicherweise durch die Lappen gegangen)"
+          "example": "jemandem durch die Lappen gehen",
+          "definition": "(umgangssprachlich:  [jemandem] entkommen, entgehen: er ist der Polizei durch die Lappen gegangen; die Wohnung, das Geschäft ist mir ärgerlicherweise durch die Lappen gegangen)",
+          "_id": "ca10cf593a9c3309dd04c9ecb31a88f99207074b"
         }
-      ]
+      ],
+      "_id": "4d09483d6fac99455d0bd73dd49b1faf8e007551"
     }
   ]
 },
@@ -345,226 +291,187 @@ db.duden.insertMany([
   "word": "ansehen",
   "definitions": [
     {
-      "_id": "1c489fe9b7c86bf645e6d9ee8b2ec88cc6978e52",
-      "definition": "\n          den Blick auf jemanden, etwas richten; ins Gesicht blicken, betrachten\n        ",
-      "text": "den Blick auf jemanden, etwas richten; ins Gesicht blicken, betrachten\n        ",
+      "definition": "den Blick auf jemanden, etwas richten; ins Gesicht blicken, betrachten",
       "examples": [
         {
-          "_id": "f2f0a5875966f5993e99b13743b371c72ed78ca3",
-          "example": "<li><span><span>einen Menschen ernst, tadelnd, freundlich, b&#xF6;se, herausfordernd, fragend, missbilligend, von der Seite ansehen</span></span></li>",
-          "text": "einen Menschen ernst, tadelnd, freundlich, böse, herausfordernd, fragend, missbilligend, von der Seite ansehen"
+          "example": "einen Menschen ernst, tadelnd, freundlich, böse, herausfordernd, fragend, missbilligend, von der Seite ansehen",
+          "_id": "02aa61ba12f1c7cb100f3c8e97fa9a7ebeec44ec"
         },
         {
-          "_id": "ed5f54a84347032ecfe5532178f2aa313ac4d37d",
-          "example": "<li><span><span>sieh mich [nicht so] an!</span></span></li>",
-          "text": "sieh mich [nicht so] an!"
+          "example": "sieh mich [nicht so] an!",
+          "_id": "9337eb33d52b33cc7f8c8d6357e9b2bdeb436328"
         },
         {
-          "_id": "f729ca8655519e24a23c211f2a27bbf4513ba23c",
-          "example": "<li><span><span>sich [gegenseitig]/<span>(gehoben:)</span> einander ansehen</span></span></li>",
-          "text": "sich [gegenseitig]/(gehoben:) einander ansehen"
+          "example": "sich [gegenseitig]/(gehoben:) einander ansehen",
+          "_id": "fedaaf140d04f1d5b665610e22541ee9ed8ceb66"
         },
         {
-          "_id": "37a903a3245741ff8d58713e6a55effeca3f3c6b",
-          "example": "<li><span><span>jemanden gro&#xDF; ansehen</span></span> <em>(erstaunt, mit gro&#xDF;en Augen anblicken)</em></li>",
-          "text": "jemanden groß ansehen (erstaunt, mit großen Augen anblicken)"
+          "example": "jemanden groß ansehen (erstaunt, mit großen Augen anblicken)",
+          "_id": "da20134d97cafdd403145ca28edcdbe8a281289e"
         },
         {
-          "_id": "4ad4553248f2d983db8b868283435ceabec75c89",
-          "example": "<li>&lt;in &#xFC;bertragener Bedeutung&gt;: <span><span>jemanden von oben [herab] ansehen</span></span> <em>(herablassend, g&#xF6;nnerhaft behandeln)</em></li>",
-          "text": "<in übertragener Bedeutung>: jemanden von oben [herab] ansehen (herablassend, gönnerhaft behandeln)"
+          "example": "<in übertragener Bedeutung>: jemanden von oben [herab] ansehen (herablassend, gönnerhaft behandeln)",
+          "_id": "6cc1dbdac41f7d5ddccc06465f7d2e2cfe5feb95"
         }
-      ]
+      ],
+      "_id": "1ed1e75b2976612e73698124022d01bc282dda43"
     },
     {
-      "_id": "1c489fe9b7c86bf645e6d9ee8b2ec88cc6978e52",
-      "definition": "\n          den Blick auf jemanden, etwas richten; ins Gesicht blicken, betrachten\n        ",
-      "text": "den Blick auf jemanden, etwas richten; ins Gesicht blicken, betrachten\n        ",
+      "definition": "den Blick auf jemanden, etwas richten; ins Gesicht blicken, betrachten",
       "examples": [
         {
-          "_id": "5b9b0c50fcde83db802bc684e2f6bf8eae2a405b",
-          "example": "<li><span class=\"iwtext\">[nur] von/vom Ansehen</span> (<span class=\"iw_rumpf_info\"><span>[nur] vom Sehen, nicht mit Namen: <span><span>er ist mir nur vom Ansehen bekannt</span></span></span></span>)</li>",
-          "text": "[nur] von/vom Ansehen ([nur] vom Sehen, nicht mit Namen: er ist mir nur vom Ansehen bekannt)"
+          "example": "[nur] von/vom Ansehen ([nur] vom Sehen, nicht mit Namen: er ist mir nur vom Ansehen bekannt)",
+          "_id": "0a7fcbca8c404036e8233196dcc1f10705f1296c"
         },
         {
-          "_id": "a382a79045e002e886c27b88275079e3df260c13",
-          "example": "<li><span class=\"iwtext\">ohne Ansehen der Person</span> (<span class=\"iw_rumpf_info\"><span>ganz gleich, um wen es sich handelt: <span><span>es m&#xFC;ssen alle ohne Ansehen der Person geh&#xF6;rt werden</span></span></span></span>)</li>",
-          "text": "ohne Ansehen der Person (ganz gleich, um wen es sich handelt: es müssen alle ohne Ansehen der Person gehört werden)"
+          "example": "ohne Ansehen der Person (ganz gleich, um wen es sich handelt: es müssen alle ohne Ansehen der Person gehört werden)",
+          "_id": "3134838cb0c64ed9c504c0cdf10df1405f0939b4"
         }
-      ]
+      ],
+      "_id": "ab356ded8d86f25da61e003c0aa49d9647f6acee"
     },
     {
-      "_id": "5cd0ceed22a6cbcbd48cb0cdc173f02e6bce1089",
-      "definition": "\n          etwas [aufmerksam, pr&#xFC;fend] betrachten (um es kennenzulernen)\n        ",
-      "text": "etwas [aufmerksam, prüfend] betrachten (um es kennenzulernen)\n        ",
+      "definition": "etwas [aufmerksam, prüfend] betrachten (um es kennenzulernen)",
       "examples": [
         {
-          "_id": "32380c3b499ca639c92e748e61b9870b520c8974",
-          "example": "<li><span><span>[sich] Bilder, einen Film, ein Theaterst&#xFC;ck ansehen</span></span></li>",
-          "text": "[sich] Bilder, einen Film, ein Theaterstück ansehen"
+          "example": "[sich] Bilder, einen Film, ein Theaterstück ansehen",
+          "_id": "938f07b1eaec817ad4d859f0439bb12a446bd804"
         },
         {
-          "_id": "d08fa6e7208dbdd04da3ff2e65360ad89cdc89f2",
-          "example": "<li><span><span>eine Wohnung ansehen</span></span> <em>(besichtigen)</em></li>",
-          "text": "eine Wohnung ansehen (besichtigen)"
+          "example": "eine Wohnung ansehen (besichtigen)",
+          "_id": "81b79344d0a8442c7d76a2bbc9e4c064df559501"
         },
         {
-          "_id": "340c8469720eeb8475260e4abf46d949072d1f35",
-          "example": "<li><span><span>das ist nicht des Ansehens wert</span></span></li>",
-          "text": "das ist nicht des Ansehens wert"
+          "example": "das ist nicht des Ansehens wert",
+          "_id": "78a21432f27e4d6eb6860a86b178755ac6b4379f"
         },
         {
-          "_id": "67642856e515832944cd974fc001b32f298d61f0",
-          "example": "<li>&lt;in &#xFC;bertragener Bedeutung&gt;: <span><span>ich werde mir die Sache ansehen <em>(mich damit besch&#xE4;ftigen)</em></span></span></li>",
-          "text": "<in übertragener Bedeutung>: ich werde mir die Sache ansehen (mich damit beschäftigen)"
+          "example": "<in übertragener Bedeutung>: ich werde mir die Sache ansehen (mich damit beschäftigen)",
+          "_id": "bd299e86b1b26928fe0c8a094644f4c8c4785b32"
         },
         {
-          "_id": "0d9ac7753df5b7610431bd9f63bb89282ef93c6d",
-          "example": "<li>&lt;substantiviert&gt;: <span><span>vom blo&#xDF;en Ansehen wird man nicht satt</span></span></li>",
-          "text": "<substantiviert>: vom bloßen Ansehen wird man nicht satt"
+          "example": "<substantiviert>: vom bloßen Ansehen wird man nicht satt",
+          "_id": "de1fdabebafe46e3305e962482ff2ea4cebc9492"
         }
-      ]
+      ],
+      "_id": "ef54bd3e564d4af19b8576442c772ae08dbf3f6f"
     },
     {
-      "_id": "5cd0ceed22a6cbcbd48cb0cdc173f02e6bce1089",
-      "definition": "\n          etwas [aufmerksam, pr&#xFC;fend] betrachten (um es kennenzulernen)\n        ",
-      "text": "etwas [aufmerksam, prüfend] betrachten (um es kennenzulernen)\n        ",
+      "definition": "etwas [aufmerksam, prüfend] betrachten (um es kennenzulernen)",
       "examples": [
         {
-          "_id": "70a260c847bb2cebf769081d6037ff2a5c31f751",
-          "example": "<li><span class=\"iwtext\">sieh [mal] [einer] an!</span> (<span class=\"iw_kopf_info\">umgangssprachlich:  </span><span class=\"iw_rumpf_info\"><span>wer h&#xE4;tte das gedacht!</span></span>)</li>",
-          "text": "sieh [mal] [einer] an! (umgangssprachlich:  wer hätte das gedacht!)"
+          "example": "sieh [mal] [einer] an! (umgangssprachlich:  wer hätte das gedacht!)",
+          "_id": "1a1d6f25d8ed11f3257f6150eedca8d897434df8"
         },
         {
-          "_id": "c0c5410489bdb3418400ab36209943a2c64a44aa",
-          "example": "<li><span class=\"iwtext\">[das] sehe [sich] einer an!</span> (<span class=\"iw_kopf_info\">umgangssprachlich:  </span><span class=\"iw_rumpf_info\"><span>das ist doch nicht zu glauben, ist ganz erstaunlich!</span></span>)</li>",
-          "text": "[das] sehe [sich] einer an! (umgangssprachlich:  das ist doch nicht zu glauben, ist ganz erstaunlich!)"
+          "example": "[das] sehe [sich] einer an! (umgangssprachlich:  das ist doch nicht zu glauben, ist ganz erstaunlich!)",
+          "_id": "15032a68249b7bd40d9e4e861d6fe3a68a992209"
         },
         {
-          "_id": "1bff5f3d13b0a23d9fbfb30da20a59398ff7447b",
-          "example": "<li><span class=\"iwtext\">ansehen kostet nichts!</span> (<span class=\"iw_rumpf_info\"><span>f&#xFC;r das blo&#xDF;e Anschauen muss man nichts bezahlen</span></span>)</li>",
-          "text": "ansehen kostet nichts! (für das bloße Anschauen muss man nichts bezahlen)"
+          "example": "ansehen kostet nichts! (für das bloße Anschauen muss man nichts bezahlen)",
+          "_id": "0a73ef6fb2b7b0e1ed7a4997df9f800bc7c5f2ca"
         }
-      ]
+      ],
+      "_id": "b8b41478f7ad82392c36e5d4a95a86e86ea3b733"
     },
     {
-      "_id": "3ca1d7f34cc34786ac27be4ff8ab0abbcbcfdd42",
-      "definition": "\n              in bestimmter Weise aussehen\n            ",
-      "text": "in bestimmter Weise aussehen\n            ",
+      "definition": "in bestimmter Weise aussehen",
       "examples": [
         {
-          "_id": "c04cb06fc3af87fdd7a00ec818b62c013bc7b017",
-          "example": "<li><span><span>das sieht sich ganz h&#xFC;bsch an</span></span></li>",
-          "text": "das sieht sich ganz hübsch an"
+          "example": "das sieht sich ganz hübsch an",
+          "_id": "2ee8459ba1ed83de9a3c04320308d76a6c161c36"
         },
         {
-          "_id": "a8b027d708208e28c7c3b5aa147f9f995d0937d6",
-          "example": "<li><span><span>es sah sich an <em>(hatte den Anschein), </em>als w&#xFC;rde es sich bessern</span></span></li>",
-          "text": "es sah sich an (hatte den Anschein), als würde es sich bessern"
+          "example": "es sah sich an (hatte den Anschein), als würde es sich bessern",
+          "_id": "ff91fa90ae9a96f93d21fc81747aef114d381771"
         }
-      ]
+      ],
+      "_id": "99c5e9ba3c9602fbce0162529047ba6f6883ac95"
     },
     {
-      "_id": "91c285df3aa0e481a7320b3bc6018b19069d8112",
-      "definition": "\n              \n                \n              \n            ",
-      "text": "",
+      "definition": "",
       "examples": [
         {
-          "_id": "5bda13f3918276e16349d2cfb72e1609a418945d",
-          "example": "<span class=\"iwtext\">anzusehen sein</span> (<span class=\"iw_rumpf_info\"><span>aussehen: <span><span>sie ist in diesem Kleid h&#xFC;bsch anzusehen</span></span>; <span><span>der Verletzte war schrecklich anzusehen</span></span></span></span>)",
-          "text": "anzusehen sein (aussehen: sie ist in diesem Kleid hübsch anzusehen; der Verletzte war schrecklich anzusehen)"
+          "example": "anzusehen sein",
+          "definition": "(aussehen: sie ist in diesem Kleid hübsch anzusehen; der Verletzte war schrecklich anzusehen)",
+          "_id": "1d15448c522607f1e0ca5c32c6b996f76dfad115"
         }
-      ]
+      ],
+      "_id": "4f5be44061425fe2688755fd22b39aab92636cfd"
     },
     {
-      "_id": "9a85bc94cb997c2486c547239af36b4c4a74b0dd",
-      "definition": "\n          vom Gesicht ablesen k&#xF6;nnen; an der &#xE4;u&#xDF;eren Erscheinung erkennen\n        ",
-      "text": "vom Gesicht ablesen können; an der äußeren Erscheinung erkennen\n        ",
+      "definition": "vom Gesicht ablesen können; an der äußeren Erscheinung erkennen",
       "examples": [
         {
-          "_id": "9d73189e981f0caf48ab4fc5bfccbfcaf5bfe08f",
-          "example": "<li><span><span>jemandem etwas schon von Weitem ansehen</span></span></li>",
-          "text": "jemandem etwas schon von Weitem ansehen"
+          "example": "jemandem etwas schon von Weitem ansehen",
+          "_id": "3d822b0b3bddb975370a015c72c5118d1f7bfaf1"
         },
         {
-          "_id": "f5ff2d6ecd980d05477ada1d1171b0bdec9de5d0",
-          "example": "<li><span><span>jemandem sein Alter [nicht] ansehen</span></span></li>",
-          "text": "jemandem sein Alter [nicht] ansehen"
+          "example": "jemandem sein Alter [nicht] ansehen",
+          "_id": "964490852ef3d18787f8ad4599412a7bde22d8d0"
         },
         {
-          "_id": "17f225c0871dfe56e59a58adcb940f7c96a54284",
-          "example": "<li><span><span>man sieht ihm seine Unsicherheit an</span></span></li>",
-          "text": "man sieht ihm seine Unsicherheit an"
+          "example": "man sieht ihm seine Unsicherheit an",
+          "_id": "2f66236fa2d1ddd0060ca6b607f16f01a2048f68"
         }
-      ]
+      ],
+      "_id": "d8952afd9ae75ea9e76e3c5be111d9da6f62be05"
     },
     {
-      "_id": "4479651e5a58515debef4b501c11e7a2518a8ec0",
-      "definition": "\n              einsch&#xE4;tzen, beurteilen\n            ",
-      "text": "einschätzen, beurteilen\n            ",
+      "definition": "einschätzen, beurteilen",
       "examples": [
         {
-          "_id": "8e5b1b82a92630df0f6a5d90c31730ce35b42857",
-          "example": "<span><span>etwas anders, mit anderen Augen ansehen</span></span>",
-          "text": "etwas anders, mit anderen Augen ansehen"
+          "example": "etwas anders, mit anderen Augen ansehen",
+          "_id": "fbbdf4e01d7c48a7f4ade23d8489ed0a8dca3f95"
         }
-      ]
+      ],
+      "_id": "ca235efa7041fd88dedbb87b8927c50186955257"
     },
     {
-      "_id": "6221dfd04b2311a93fb9f1ecce1927b53515b0e1",
-      "definition": "\n              als etwas betrachten, auffassen; f&#xFC;r jemanden, etwas halten\n            ",
-      "text": "als etwas betrachten, auffassen; für jemanden, etwas halten\n            ",
+      "definition": "als etwas betrachten, auffassen; für jemanden, etwas halten",
       "examples": [
         {
-          "_id": "e05649c890811147b17b6bc4f58dbcab39c9b24a",
-          "example": "<li><span><span>jemanden als seinen Freund, als Betr&#xFC;ger ansehen</span></span></li>",
-          "text": "jemanden als seinen Freund, als Betrüger ansehen"
+          "example": "jemanden als seinen Freund, als Betrüger ansehen",
+          "_id": "1f9b482c53a3ae374f24b8334a56e7b3ea93f91e"
         },
         {
-          "_id": "7630965486f6c3282319761922702542c78e93a4",
-          "example": "<li><span><span>etwas als/f&#xFC;r seine Pflicht ansehen</span></span></li>",
-          "text": "etwas als/für seine Pflicht ansehen"
+          "example": "etwas als/für seine Pflicht ansehen",
+          "_id": "2d8e0b1f1bc2ab4aedb13e9583d0dd8a1284b8ad"
         },
         {
-          "_id": "8d75ee90cfef2deb7d1404d23864fb317471c34e",
-          "example": "<li><span><span>etwas als/f&#xFC;r eilig ansehen</span></span></li>",
-          "text": "etwas als/für eilig ansehen"
+          "example": "etwas als/für eilig ansehen",
+          "_id": "cdb30dcb0161e37a133496c919dc37d559ab279e"
         },
         {
-          "_id": "23b99a89845e204127f9ae7a5e602a929e7dcd92",
-          "example": "<li><span><span>sich als Held, <span>(veraltend:)</span> als Helden ansehen</span></span></li>",
-          "text": "sich als Held, (veraltend:) als Helden ansehen"
+          "example": "sich als Held, (veraltend:) als Helden ansehen",
+          "_id": "48e2e359daa56dc6292a8c69f4ae700ee26ea32e"
         }
-      ]
+      ],
+      "_id": "2a6ed9451febb9b7e77027db187a207b30a363bb"
     },
     {
-      "_id": "6221dfd04b2311a93fb9f1ecce1927b53515b0e1",
-      "definition": "\n              als etwas betrachten, auffassen; f&#xFC;r jemanden, etwas halten\n            ",
-      "text": "als etwas betrachten, auffassen; für jemanden, etwas halten\n            ",
+      "definition": "als etwas betrachten, auffassen; für jemanden, etwas halten",
       "examples": [
         {
-          "_id": "be8f04352ed841c1dbc92f0be3aeb6435f9fabc5",
-          "example": "<span class=\"iwtext\">jemanden nicht f&#xFC;r voll ansehen</span> (<span class=\"iw_rumpf_info\"><span>nicht f&#xFC;r ganz zurechnungsf&#xE4;hig halten, nicht ernst nehmen</span></span>)",
-          "text": "jemanden nicht für voll ansehen (nicht für ganz zurechnungsfähig halten, nicht ernst nehmen)"
+          "example": "jemanden nicht für voll ansehen (nicht für ganz zurechnungsfähig halten, nicht ernst nehmen)",
+          "_id": "7e13c21ed1de916484a685a05c6a3a15afa468bd"
         }
-      ]
+      ],
+      "_id": "bb20a2e583c2aa5a00fd405732c04b29756dbbbc"
     },
     {
-      "_id": "400a6c0b588dff9e8f8f69a8d4feed021f4b0fc1",
-      "definition": "\n          Zeuge sein; zusehen, ohne etwas dagegen zu unternehmen\n        ",
-      "text": "Zeuge sein; zusehen, ohne etwas dagegen zu unternehmen\n        ",
+      "definition": "Zeuge sein; zusehen, ohne etwas dagegen zu unternehmen",
       "examples": [
         {
-          "_id": "98e3abe416796974af8390095daf448e915543b2",
-          "example": "<li><span><span>er musste mit ansehen, wie sie in den Fluten versank</span></span></li>",
-          "text": "er musste mit ansehen, wie sie in den Fluten versank"
+          "example": "er musste mit ansehen, wie sie in den Fluten versank",
+          "_id": "838642233a85de97650569de8976d251a8c6eb34"
         },
         {
-          "_id": "974a8ea2a39a03d7080a5f8f943f5f57db25f5e6",
-          "example": "<li><span><span>das Elend nicht mehr [mit] ansehen k&#xF6;nnen</span></span></li>",
-          "text": "das Elend nicht mehr [mit] ansehen können"
+          "example": "das Elend nicht mehr [mit] ansehen können",
+          "_id": "eeab924969d00e9bcab5f885c01d63e956539e1a"
         }
-      ]
+      ],
+      "_id": "4600fb42202facccab470e447653632e6f45ebd6"
     }
   ]
 },
@@ -572,200 +479,162 @@ db.duden.insertMany([
   "word": "weiß",
   "definitions": [
     {
-      "_id": "2e92254504f705139eddeaafc6a7a372c384d2ec",
-      "definition": "\n          von der hellsten Farbe; alle sichtbaren Farben, die meisten Lichtstrahlen reflektierend\n        ",
-      "text": "von der hellsten Farbe; alle sichtbaren Farben, die meisten Lichtstrahlen reflektierend\n        ",
+      "definition": "von der hellsten Farbe; alle sichtbaren Farben, die meisten Lichtstrahlen reflektierend",
       "examples": [
         {
-          "_id": "2677599ad1caf88369ab726c9a867b85b71c54f9",
-          "example": "<li><span><span>wei&#xDF;e Lilien, Wolken</span></span></li>",
-          "text": "weiße Lilien, Wolken"
+          "example": "weiße Lilien, Wolken",
+          "_id": "3bc2ac99c75236fef4d0f6e8895e7c7414456a0c"
         },
         {
-          "_id": "392f8aa61159d1137bf0252da1f0cb4ee1c08b93",
-          "example": "<li><span><span>wei&#xDF;e Gardinen</span></span></li>",
-          "text": "weiße Gardinen"
+          "example": "weiße Gardinen",
+          "_id": "a060d4a587a9f3bff4795f3669a32e6344d506c0"
         },
         {
-          "_id": "403dff5e8a208557447589645633bacc51df1958",
-          "example": "<li><span><span>ein wei&#xDF;es Kleid</span></span></li>",
-          "text": "ein weißes Kleid"
+          "example": "ein weißes Kleid",
+          "_id": "384e05a38a519d895c43414d209ad0974e10561c"
         },
         {
-          "_id": "94fad461355301fdbd143ab90b9954a5524305a6",
-          "example": "<li><span><span>wei&#xDF;e Haare</span></span></li>",
-          "text": "weiße Haare"
+          "example": "weiße Haare",
+          "_id": "b355f634ab99df0a106bf34af20a9fe5585b1241"
         },
         {
-          "_id": "b5697db3db2a79837dd745126fb8ff2bcbb932f3",
-          "example": "<li><span><span>ein wei&#xDF;er Hai, Hirsch</span></span></li>",
-          "text": "ein weißer Hai, Hirsch"
+          "example": "ein weißer Hai, Hirsch",
+          "_id": "5a3a1a42a4b594f09982952757e391d0eb255362"
         },
         {
-          "_id": "bc6e25deca04e51290df94f2fb2130d268bf5503",
-          "example": "<li><span><span>die Schachfiguren so aufstellen, dass die wei&#xDF;e Dame auf einem wei&#xDF;en Feld steht</span></span></li>",
-          "text": "die Schachfiguren so aufstellen, dass die weiße Dame auf einem weißen Feld steht"
+          "example": "die Schachfiguren so aufstellen, dass die weiße Dame auf einem weißen Feld steht",
+          "_id": "f249e5a14b59dda403416c16f33ae5058ba38a7e"
         },
         {
-          "_id": "749e9499368e50c487be4f5ea3ebf21c0a73958a",
-          "example": "<li><span><span>wei&#xDF; wie Schnee</span></span></li>",
-          "text": "weiß wie Schnee"
+          "example": "weiß wie Schnee",
+          "_id": "9ad6c7be0b8f9e180d1110814d2c438ea52ce6d8"
         },
         {
-          "_id": "ab0e07ea96081bc9dffd0e6c9dda4469a4dd0645",
-          "example": "<li><span><span>wei&#xDF;e W&#xE4;sche</span></span></li>",
-          "text": "weiße Wäsche"
+          "example": "weiße Wäsche",
+          "_id": "36b51f471b84abe57284a533684733cfe70dd88c"
         },
         {
-          "_id": "d5280c0fee032c90a27256ca22610c88039777d0",
-          "example": "<li><span><span>sein Gesicht war wei&#xDF; von Kalk</span></span></li>",
-          "text": "sein Gesicht war weiß von Kalk"
+          "example": "sein Gesicht war weiß von Kalk",
+          "_id": "5e66c50468edde26629f328f647e85a3585bb417"
         },
         {
-          "_id": "6d6b046e81466ab474a1ee3fe64c2ee90f252337",
-          "example": "<li><span><span>wei&#xDF; <em>(in Wei&#xDF;) </em>gekleidet sein</span></span></li>",
-          "text": "weiß (in Weiß) gekleidet sein"
+          "example": "weiß (in Weiß) gekleidet sein",
+          "_id": "ed9a3e5cd7daa3197b14dce4e27b26d3c11e4a07"
         },
         {
-          "_id": "16a5fc096784331d81347c2f8b68cc62c9dc0076",
-          "example": "<li><span><span>der Rock war rot und wei&#xDF; gestreift</span></span></li>",
-          "text": "der Rock war rot und weiß gestreift"
+          "example": "der Rock war rot und weiß gestreift",
+          "_id": "6599aecd8f1146c5c3f7ea65b5b56884cd525ae5"
         },
         {
-          "_id": "220d540012bb7b703b5ef93143974653462817c3",
-          "example": "<li><span><span>der Tisch ist wei&#xDF; <em>(mit einem wei&#xDF;en Tischtuch) </em>gedeckt</span></span></li>",
-          "text": "der Tisch ist weiß (mit einem weißen Tischtuch) gedeckt"
+          "example": "der Tisch ist weiß (mit einem weißen Tischtuch) gedeckt",
+          "_id": "3f64736df0bc4e451c47101e5126d496b8ef0e45"
         },
         {
-          "_id": "a852659764407e369d895a34c3c6d82b02dca3af",
-          "example": "<li><span><span>strahlend, blendend wei&#xDF;e Z&#xE4;hne</span></span></li>",
-          "text": "strahlend, blendend weiße Zähne"
+          "example": "strahlend, blendend weiße Zähne",
+          "_id": "3fe8dfebd52e7dbb363f3b62067cb82ca2f94193"
         },
         {
-          "_id": "75bbb06843d0082160884be0bdd125107cf46d60",
-          "example": "<li><span><span>wei&#xDF; lackierte M&#xF6;bel</span></span></li>",
-          "text": "weiß lackierte Möbel"
+          "example": "weiß lackierte Möbel",
+          "_id": "baf2fedbd3aa298a94be41054142dfa5bd3043c8"
         },
         {
-          "_id": "e71dfb0a827e96c6fff3e34e08d0d3aa19fc1f45",
-          "example": "<li><span><span>die Wand wei&#xDF; kalken/t&#xFC;nchen</span></span></li>",
-          "text": "die Wand weiß kalken/tünchen"
+          "example": "die Wand weiß kalken/tünchen",
+          "_id": "bf334bb53b1f0572c120ae5638ba74baca21c35c"
         },
         {
-          "_id": "ca514fb471cb9497f16f27fbcedf4134ece57636",
-          "example": "<li><span><span>eine wei&#xDF; gekalkte/get&#xFC;nchte/gestrichene Wand</span></span></li>",
-          "text": "eine weiß gekalkte/getünchte/gestrichene Wand"
+          "example": "eine weiß gekalkte/getünchte/gestrichene Wand",
+          "_id": "8cc119b07d896ae368258d3ffc14ff8ae482bae0"
         },
         {
-          "_id": "d63bc203923c4f19df459e6aa87d90be10c566e6",
-          "example": "<li><span><span>wei&#xDF;es <em>(unbeschriebenes) </em>Papier</span></span></li>",
-          "text": "weißes (unbeschriebenes) Papier"
+          "example": "weißes (unbeschriebenes) Papier",
+          "_id": "4e34635f44be8d2cfdb12afe83c84069156afb4c"
         },
         {
-          "_id": "6a2154446c033f1f5b8c01ace2ee85df9c31e245",
-          "example": "<li><span><span>er ist wei&#xDF; geworden</span></span> <em>(hat wei&#xDF;e Haare bekommen)</em></li>",
-          "text": "er ist weiß geworden (hat weiße Haare bekommen)"
+          "example": "er ist weiß geworden (hat weiße Haare bekommen)",
+          "_id": "76ae8984c207ea0f4fcf41a3639249e83d74a9d0"
         },
         {
-          "_id": "bd1ef513219b5a352938f7ddb0cf9232caccf985",
-          "example": "<li><span><span>wei&#xDF;e Blutk&#xF6;rperchen <span>(Medizin; </span><em>Leukozyten</em>)</span></span></li>",
-          "text": "weiße Blutkörperchen (Medizin; Leukozyten)"
+          "example": "weiße Blutkörperchen (Medizin; Leukozyten)",
+          "_id": "2f23cf670245e0cf56a41e1f0cfad9300dc942a7"
         },
         {
-          "_id": "3323a0b1993e146cd4dfa394e37fdb2f487dc10b",
-          "example": "<li><span><span>wei&#xDF;es <em>(das ganze sichtbare Spektrum umfassendes) </em>Licht</span></span></li>",
-          "text": "weißes (das ganze sichtbare Spektrum umfassendes) Licht"
+          "example": "weißes (das ganze sichtbare Spektrum umfassendes) Licht",
+          "_id": "ec170a7afe11b847084f9254623b350ad0f7c590"
         },
         {
-          "_id": "a7b1651afd14561da13eee3c136db2bf63ceb03f",
-          "example": "<li><span><span>die W&#xE4;sche wei&#xDF; waschen</span></span></li>",
-          "text": "die Wäsche weiß waschen"
+          "example": "die Wäsche weiß waschen",
+          "_id": "571fd4f7172f8405dcb03e122d7347fd11ffe6af"
         },
         {
-          "_id": "e7b3cde3c135b86fcd885275ff428d059873a321",
-          "example": "<li>&lt;substantiviert&gt;: <span><span>das Wei&#xDF;e im Ei/des Eis</span></span></li>",
-          "text": "<substantiviert>: das Weiße im Ei/des Eis"
+          "example": "<substantiviert>: das Weiße im Ei/des Eis",
+          "_id": "5f83e8c70e2c1dad2d7a05f2b391569aebad7348"
         },
         {
-          "_id": "82e455771b3504ce22420814dc218df92e175681",
-          "example": "<li><span><span>Wei&#xDF; <em>(der Spieler, der die wei&#xDF;en Figuren hat) </em>er&#xF6;ffnet das Spiel</span></span></li>",
-          "text": "Weiß (der Spieler, der die weißen Figuren hat) eröffnet das Spiel"
+          "example": "Weiß (der Spieler, der die weißen Figuren hat) eröffnet das Spiel",
+          "_id": "e4c3ab6093e977c124cb61e168cb144ddbf8bad5"
         }
-      ]
+      ],
+      "_id": "257ae225d885bf3585cb3357c3d06b170b55c76a"
     },
     {
-      "_id": "afe76a5348ca1242b7376216ae1a7f0f39b9ff91",
-      "definition": "\n              sehr hell aussehend\n            ",
-      "text": "sehr hell aussehend\n            ",
+      "definition": "sehr hell aussehend",
       "examples": [
         {
-          "_id": "0f6d56ef6e4c3dc7de582b2f5374653bf76ad9c5",
-          "example": "<li><span><span>wei&#xDF;er Pfeffer</span></span></li>",
-          "text": "weißer Pfeffer"
+          "example": "weißer Pfeffer",
+          "_id": "e2079b35176864a8f482ba123fa3eb1ad16ad599"
         },
         {
-          "_id": "819604c6740ad360073487e1550a121342152647",
-          "example": "<li><span><span>wei&#xDF;e Bohnen, Johannisbeeren</span></span></li>",
-          "text": "weiße Bohnen, Johannisbeeren"
+          "example": "weiße Bohnen, Johannisbeeren",
+          "_id": "02a5866f40b1d97f973f79b65579d61a2f4b4f2d"
         },
         {
-          "_id": "0cdc98c6fa0318cd2f2b295ffb4e2dfbd066d787",
-          "example": "<li><span><span>wei&#xDF;es Mehl</span></span></li>",
-          "text": "weißes Mehl"
+          "example": "weißes Mehl",
+          "_id": "ab40cab1c94af94dfe680cabe8231e02f92d4345"
         },
         {
-          "_id": "9adf4f0db3df5db80716d96d104cae1991903bd2",
-          "example": "<li><span><span>wei&#xDF;es Brot</span></span> <em>(Wei&#xDF;brot)</em></li>",
-          "text": "weißes Brot (Weißbrot)"
+          "example": "weißes Brot (Weißbrot)",
+          "_id": "e0f558bdf96c35a9b3dffafe9926d007f9fb504d"
         },
         {
-          "_id": "053c768e9fd4db0e76727a6d8951431fc519e355",
-          "example": "<li><span><span>wei&#xDF;es Fleisch</span></span></li>",
-          "text": "weißes Fleisch"
+          "example": "weißes Fleisch",
+          "_id": "f6410f518b066d67835954bc3174cea9488391fb"
         },
         {
-          "_id": "aad05fd3f375d32d4528087680f2cc999a029eb8",
-          "example": "<li><span><span>wei&#xDF;er Wein</span></span> <em>(Wei&#xDF;wein)</em></li>",
-          "text": "weißer Wein (Weißwein)"
+          "example": "weißer Wein (Weißwein)",
+          "_id": "1d969b3993b67e14e981a1f2782e27d136708187"
         },
         {
-          "_id": "0829a5b51b37940ab6a06dff121dbc0886cf336f",
-          "example": "<li>&lt;substantiviert&gt;: (umgangssprachlich) <span><span>ein Glas von dem Wei&#xDF;en</span></span> <em>(von dem Wei&#xDF;wein)</em></li>",
-          "text": "<substantiviert>: (umgangssprachlich) ein Glas von dem Weißen (von dem Weißwein)"
+          "example": "<substantiviert>: (umgangssprachlich) ein Glas von dem Weißen (von dem Weißwein)",
+          "_id": "dd8b5ea758d1423c26063f79bf052ef132e2da13"
         }
-      ]
+      ],
+      "_id": "72a31ad19c0c20e68d58ec2203827af0b422b08f"
     },
     {
-      "_id": "5e1555bc5f9803b805e9c59e4221815f05fde914",
-      "definition": "\n              von heller Hautfarbe\n            ",
-      "text": "von heller Hautfarbe\n            ",
+      "definition": "von heller Hautfarbe",
       "examples": [
         {
-          "_id": "37bb9f76843e795c83c8e952108d3b7988e4a29e",
-          "example": "<li><span><span>die wei&#xDF;en Amerikaner</span></span></li>",
-          "text": "die weißen Amerikaner"
+          "example": "die weißen Amerikaner",
+          "_id": "0e49aaa74c5f6f40cf5942e7367a95c528fc31c4"
         },
         {
-          "_id": "87541224d44c655c2c0e8f47c0f33c94142dbb1c",
-          "example": "<li><span><span>die wei&#xDF;e Minderheit</span></span></li>",
-          "text": "die weiße Minderheit"
+          "example": "die weiße Minderheit",
+          "_id": "9e12e7cf93f3829f252b5110710738af2ca5a273"
         },
         {
-          "_id": "73a18798043ba98504f101bc7e4d9a5aab93fa9e",
-          "example": "<li><span><span>Menschen wei&#xDF;er Hautfarbe</span></span></li>",
-          "text": "Menschen weißer Hautfarbe"
+          "example": "Menschen weißer Hautfarbe",
+          "_id": "d0c49876e4a157eb977e1654c5e0da6288ca2ff5"
         },
         {
-          "_id": "8f4f8bb6ad5015a053b917641b042ee97b03fd48",
-          "example": "<li><span><span>der wei&#xDF;e Mann</span></span> <em>(die <a href=\"/rechtschreibung/Weisze_Bier_Frau_Europaeerin\">Wei&#xDF;en</a>)</em></li>",
-          "text": "der weiße Mann (die Weißen)"
+          "example": "der weiße Mann (die Weißen)",
+          "_id": "ba69e8d0c5d7bd3bd915c732c5be4af71197ccc0"
         },
         {
-          "_id": "b96fff91c962b3a61bea405ae67904066677f43a",
-          "example": "<li><span><span>der Vater ist wei&#xDF;</span></span></li>",
-          "text": "der Vater ist weiß"
+          "example": "der Vater ist weiß",
+          "_id": "ddaf1ddabcc438e3a82cd65b56ae6f00bf4b5602"
         }
-      ]
+      ],
+      "_id": "782d62e7d3dccbd8a770a66fbeb1678ac34fcac9"
     }
   ]
 },

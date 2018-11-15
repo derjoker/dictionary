@@ -1,5 +1,6 @@
 {
   "word": "text",
-  "definitions.text": "text",
-  "definitions.examples.text": "text"
+  "definitions.definition": "text",
+  "definitions.examples.example": "text",
+  "definitions.examples.definition": "text"
 }
