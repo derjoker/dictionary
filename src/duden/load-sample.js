@@ -3,6 +3,7 @@ db.duden.drop();
 db.duden.insertMany([
 {
   "word": "Adam, der",
+  "stem": "Adam",
   "definitions": [
     {
       "definition": "",
@@ -29,6 +30,7 @@ db.duden.insertMany([
 },
 {
   "word": "Gedanke, veraltet Gedanken, der",
+  "stem": "Gedanke",
   "definitions": [
     {
       "definition": "etwas, was gedacht wird, gedacht worden ist; Überlegung",
@@ -219,6 +221,7 @@ db.duden.insertMany([
 },
 {
   "word": "Lappen, der",
+  "stem": "Lappen",
   "definitions": [
     {
       "definition": "[minderwertiges] kleineres Stück Stoff, Leder o. Ä.",
@@ -289,6 +292,7 @@ db.duden.insertMany([
 },
 {
   "word": "ansehen",
+  "stem": "ansehen",
   "definitions": [
     {
       "definition": "den Blick auf jemanden, etwas richten; ins Gesicht blicken, betrachten",
@@ -477,6 +481,7 @@ db.duden.insertMany([
 },
 {
   "word": "weiß",
+  "stem": "weiß",
   "definitions": [
     {
       "definition": "von der hellsten Farbe; alle sichtbaren Farben, die meisten Lichtstrahlen reflektierend",

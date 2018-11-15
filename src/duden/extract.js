@@ -14,6 +14,7 @@ module.exports = function extract ($) {
   }
 
   const word = $('section#block-system-main > h1').text().replace(/\u00AD/g, '')
+  const stem = word.split(',')[0]
 
   const definitions = $('.term-section')
     .toArray()
@@ -71,6 +72,7 @@ module.exports = function extract ($) {
 
   return {
     word,
+    stem,
     definitions
   }
 }
