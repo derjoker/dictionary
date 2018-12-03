@@ -1,74 +1,64 @@
 const hash = require('object-hash')
+const flatten = require('lodash/flatten')
 
 module.exports = function extract ($) {
-  function parseExample (el) {
-    const clone = $(el).clone()
-    const example = $(el).find('.iwtext').text().trim()
-    clone.children('.iwtext').remove()
-    const definition = clone.text().trim()
-
-    return {
-      example,
-      definition
-    }
-  }
-
   const word = $('section#block-system-main > h1').text().replace(/\u00AD/g, '')
   const stem = word.split(',')[0]
 
-  const definitions = $('.term-section')
-    .toArray()
-    .map(section => {
-      const parent = $(section.parentNode).clone()
-      parent.children('figure').remove()
-      parent.children('.term-section').remove()
-      let definition = parent.text().trim()
-
-      const child = section.firstChild.next
-      const clone = $(section).clone()
-      clone.children('h3').remove()
-
-      let examples = []
-
-      // no definition
-      if (definition === '') {
-        if (clone.find('li').length) {
-          examples = clone.find('li').toArray().map(li => parseExample(li))
-        } else {
-          examples = [parseExample(clone)]
+  function parse (node) {
+    let examples = []
+    if (node.find('h3:contains("Beispiel")').length) {
+      let spans = []
+      const span = node.children('span').toArray()
+      spans = spans.concat(span)
+      const li = node.find('ul > li').toArray()
+      spans = spans.concat(li)
+      examples = examples.concat(
+        spans.map(span => ({
+          example: $(span).text().trim()
+        }))
+      )
+    }
+    if (node.find('h3:contains("Wendungen")').length) {
+      const spans = node.find('span.iwtext').toArray().map(iwtext => {
+        const kopf = $(iwtext).siblings('span.iw_kopf_info')
+        const rumpf = $(iwtext).siblings('span.iw_rumpf_info')
+        const definition = kopf.text().trim() + ' ' + rumpf.text().trim()
+        return {
+          example: $(iwtext).text().trim(),
+          definition: definition.trim()
         }
-      } else {
-        if (child) {
-          switch (child.name) {
-            case 'div':
-            case 'p':
-              examples = []
-              break
-            case 'ul':
-              examples = $(child)
-                .children()
-                .toArray()
-                .map(li => ({ example: $.load(li).text().trim() }))
-              break
-            default:
-              examples = [{ example: clone.text().trim() }]
-              break
-          }
-        }
-      }
-
-      const entry = {
-        definition,
-        examples: examples.map(example => {
-          example._id = hash(example)
-          return example
-        })
-      }
-      entry._id = hash(entry)
-
-      return entry
+      })
+      examples = examples.concat(spans)
+    }
+    return examples.map(example => {
+      example._id = hash(example)
+      return example
     })
-    .filter(definition => definition.examples.length > 0)
+  }
+
+  // Bedeutungsübersicht
+  const section = $('h2:contains("Bedeutungsübersicht")').parents('section')
+  const div = section.find('div.entry').toArray().map(entry => {
+    const examples = $(entry).children('.term-section').remove()
+    return {
+      definition: $(entry).text().trim(),
+      examples: parse(examples)
+    }
+  })
+  const ol = section.find('ol > li > a').toArray().map(a => {
+    const definition = $(a).text().trim()
+    const href = $(a).attr('href')
+    const examples = $(href)
+      .find('.term-section')
+      .toArray()
+      .map(example => parse($(example)))
+    return { definition, examples: flatten(examples) }
+  })
+  const definitions = div.concat(ol).map(definition => {
+    definition._id = hash(definition)
+    return definition
+  })
 
   return {
     word,

@@ -6,25 +6,30 @@ db.duden.insertMany([
   "stem": "Adam",
   "definitions": [
     {
-      "definition": "",
+      "definition": "(umgangssprachlich scherzhaft) Mann [als Partner der Frau]",
+      "examples": [],
+      "_id": "3c04d2aa6b3808a1ae50a33b12f3aa311e78e714"
+    },
+    {
+      "definition": "in »bei Adam und Eva anfangen/beginnen« und anderen Wendungen, Redensarten oder Sprichwörtern",
       "examples": [
         {
           "example": "bei Adam und Eva anfangen/beginnen",
-          "definition": "(umgangssprachlich:  in einem Vortrag, bei seinen Ausführungen sehr weit ausholen)",
-          "_id": "e556a5870c469231a649c7a5ab5482c68116a216"
+          "definition": "umgangssprachlich: in einem Vortrag, bei seinen Ausführungen sehr weit ausholen",
+          "_id": "cdcc3fa9c4c1f511725e4d229f958be32b22bcd6"
         },
         {
           "example": "seit Adams Zeiten",
-          "definition": "(umgangssprachlich:  seit je, von jeher, solange man denken kann)",
-          "_id": "8d14c48e6fedffd995263d69ebf606e27229ed29"
+          "definition": "umgangssprachlich: seit je, von jeher, solange man denken kann",
+          "_id": "426b8ffa0d341f96231d212eb2b1a695309c6c5e"
         },
         {
           "example": "von Adam und Eva abstammen",
-          "definition": "(umgangssprachlich:  [von Dingen] sehr alt sein)",
-          "_id": "c6264f71c5013e68a1d55c69b97236be597ba623"
+          "definition": "umgangssprachlich: [von Dingen] sehr alt sein",
+          "_id": "7bcc3c415ac9939c5a71b908d6c97e923056d457"
         }
       ],
-      "_id": "b08272bbaef2646b7bddbc32ba9c215cb1657463"
+      "_id": "dde50a7d7c58dbaf206c9f187fbee09c15cd66ff"
     }
   ]
 },
@@ -98,35 +103,34 @@ db.duden.insertMany([
         {
           "example": "mit seinen Gedanken woanders, nicht bei der Sache sein (gedankenverloren, unaufmerksam sein)",
           "_id": "b04a01676c964c16509cf17238c4aee94f8c3948"
-        }
-      ],
-      "_id": "3b80fb57a388f5945a668f4bdf4cfe8aaac3d316"
-    },
-    {
-      "definition": "etwas, was gedacht wird, gedacht worden ist; Überlegung",
-      "examples": [
-        {
-          "example": "[jemandes] Gedanken lesen [können] ([jemandes] Gedanken erraten [können])",
-          "_id": "687c4283e1bd0a6a2c187f6286a3e2cc2d4d4da6"
         },
         {
-          "example": "sich <Dativ> Gedanken [über jemanden, etwas/wegen jemandes, etwas] machen (sich [um jemanden, etwas] sorgen)",
-          "_id": "4ff584d97cffc1a3fdd6b1d56787c0950c42ed3a"
+          "example": "[jemandes] Gedanken lesen [können]",
+          "definition": "[jemandes] Gedanken erraten [können]",
+          "_id": "359d2c7081d87264fd6d97d28d661fcc6cd36fb0"
         },
         {
-          "example": "sich <Dativ> über etwas Gedanken machen (über etwas länger nachdenken)",
-          "_id": "60003cdc40d3e66351d1691c76c838597e7e080b"
+          "example": "sich <Dativ> Gedanken [über jemanden, etwas/wegen jemandes, etwas] machen",
+          "definition": "sich [um jemanden, etwas] sorgen",
+          "_id": "9ecc84ecebfbfe4aa5807e7e12c6035bf4216c6d"
         },
         {
-          "example": "Gedanken sind [zoll]frei (was man denkt, kann einem keiner vorschreiben)",
-          "_id": "b3b9b5a6bada5b91c47fd30298f48e3b56e5d55a"
+          "example": "sich <Dativ> über etwas Gedanken machen",
+          "definition": "über etwas länger nachdenken",
+          "_id": "3add71d46651b6c48c212b9160c78aaf144f11e7"
+        },
+        {
+          "example": "Gedanken sind [zoll]frei",
+          "definition": "was man denkt, kann einem keiner vorschreiben",
+          "_id": "6a283148305206f6ef99e72b94d3af7d13118c8f"
         },
         {
           "example": "der erste Gedanke ist nicht immer der beste",
-          "_id": "b505394b36633d190504042f838e5879922a36f6"
+          "definition": "",
+          "_id": "0432d0478f9f27c48c786998286f50d82264b0c3"
         }
       ],
-      "_id": "c5047dc7f72d8a51341a510e8a8431be900dcfb0"
+      "_id": "0b19969ef86df1ebebbc5e1cb00e81937081ac82"
     },
     {
       "definition": "das Denken an etwas",
@@ -138,19 +142,14 @@ db.duden.insertMany([
         {
           "example": "der bloße Gedanke [daran] macht ihn wütend",
           "_id": "e726cc5b8bd3838b93d67c9f6c902a73a2f97f53"
-        }
-      ],
-      "_id": "c229de21888b02803bc9d05ce617af7cb0b261a2"
-    },
-    {
-      "definition": "das Denken an etwas",
-      "examples": [
+        },
         {
-          "example": "kein Gedanke [daran]! (umgangssprachlich:  keinesfalls, unmöglich, das kommt nicht infrage!)",
-          "_id": "dce5c1d214bda109a4317d96a042e3a885ce303a"
+          "example": "kein Gedanke [daran]!",
+          "definition": "umgangssprachlich: keinesfalls, unmöglich, das kommt nicht infrage!",
+          "_id": "dcc6edc7c98c15b0625a37a48ec503ab80fb7157"
         }
       ],
-      "_id": "c89839ec6a9cc8ae49747a7134498aecea256a6e"
+      "_id": "e4714f9dbfcf5abb02d399c500399861df410f74"
     },
     {
       "definition": "Meinung, Ansicht",
@@ -207,15 +206,15 @@ db.duden.insertMany([
       "_id": "22ff75a1b79f7f26ed102bd0422207b7604ca4ca"
     },
     {
-      "definition": "",
+      "definition": "in »[um] einen Gedanken«",
       "examples": [
         {
           "example": "[um] einen Gedanken",
-          "definition": "(landschaftlich:  ein wenig: der Mantel könnte [um] einen Gedanken länger sein)",
-          "_id": "3010b41d3fc71c5882a3feeda460a786cf1597af"
+          "definition": "landschaftlich: ein wenig: der Mantel könnte [um] einen Gedanken länger sein",
+          "_id": "ee4c99aec393934388f5e2e8a9fb16e93460913c"
         }
       ],
-      "_id": "2c8c0692a58cd115f34aa2eb38bfe84d5d65324d"
+      "_id": "ec069d8fbebb45d5f52e48015fc8ab03bca99d30"
     }
   ]
 },
@@ -238,24 +237,24 @@ db.duden.insertMany([
       "_id": "199ff1e000939bfa973fd8889afd759092246798"
     },
     {
-      "definition": "Geldschein [mit größerem Wert]Gebrauchsalopp",
+      "definition": "(salopp) Geldschein [mit größerem Wert]",
       "examples": [
         {
           "example": "für die paar Lappen reiß ich mir doch kein Bein aus!",
           "_id": "788b370619adc24cd632fa3e0566c596c8d51fde"
         }
       ],
-      "_id": "741ac11ef7dc4ca7a6804da5236839a89f7be4b5"
+      "_id": "50bf83f77d4fd168aafae6c5bb95f4bd73a02886"
     },
     {
-      "definition": "Führerschein, FahrerlaubnisGebrauchsalopp",
+      "definition": "(salopp) Führerschein, Fahrerlaubnis",
       "examples": [
         {
           "example": "er muss seinen Lappen für einen Monat abgeben",
           "_id": "3e9bde3fe537e78d96e20d0fc5164cf88fc1191b"
         }
       ],
-      "_id": "86508b3311c058e7c41ea4adba686d93afdf281e"
+      "_id": "37f50f6652808a2c8379860293e9cdab07014338"
     },
     {
       "definition": "[herunterhängendes] Stück Haut am tierischen Körper",
@@ -278,15 +277,15 @@ db.duden.insertMany([
       "_id": "b164e24f741c02e8982e66c4d98384831c025c01"
     },
     {
-      "definition": "",
+      "definition": "in »jemandem durch die Lappen gehen«",
       "examples": [
         {
           "example": "jemandem durch die Lappen gehen",
-          "definition": "(umgangssprachlich:  [jemandem] entkommen, entgehen: er ist der Polizei durch die Lappen gegangen; die Wohnung, das Geschäft ist mir ärgerlicherweise durch die Lappen gegangen)",
-          "_id": "ca10cf593a9c3309dd04c9ecb31a88f99207074b"
+          "definition": "umgangssprachlich: [jemandem] entkommen, entgehen: er ist der Polizei durch die Lappen gegangen; die Wohnung, das Geschäft ist mir ärgerlicherweise durch die Lappen gegangen",
+          "_id": "39e7ea37256b4d3ff4378f9bb9323dcb521cf9b6"
         }
       ],
-      "_id": "4d09483d6fac99455d0bd73dd49b1faf8e007551"
+      "_id": "d9e70d8a6156cf53f008b7f76ae84fbdbab67c9b"
     }
   ]
 },
@@ -316,23 +315,19 @@ db.duden.insertMany([
         {
           "example": "<in übertragener Bedeutung>: jemanden von oben [herab] ansehen (herablassend, gönnerhaft behandeln)",
           "_id": "6cc1dbdac41f7d5ddccc06465f7d2e2cfe5feb95"
-        }
-      ],
-      "_id": "1ed1e75b2976612e73698124022d01bc282dda43"
-    },
-    {
-      "definition": "den Blick auf jemanden, etwas richten; ins Gesicht blicken, betrachten",
-      "examples": [
-        {
-          "example": "[nur] von/vom Ansehen ([nur] vom Sehen, nicht mit Namen: er ist mir nur vom Ansehen bekannt)",
-          "_id": "0a7fcbca8c404036e8233196dcc1f10705f1296c"
         },
         {
-          "example": "ohne Ansehen der Person (ganz gleich, um wen es sich handelt: es müssen alle ohne Ansehen der Person gehört werden)",
-          "_id": "3134838cb0c64ed9c504c0cdf10df1405f0939b4"
+          "example": "[nur] von/vom Ansehen",
+          "definition": "[nur] vom Sehen, nicht mit Namen: er ist mir nur vom Ansehen bekannt",
+          "_id": "46ae477dcd629366d0fe10ff50137b49218fff50"
+        },
+        {
+          "example": "ohne Ansehen der Person",
+          "definition": "ganz gleich, um wen es sich handelt: es müssen alle ohne Ansehen der Person gehört werden",
+          "_id": "bbe1ff222fed905eeaf11a3062d2a3973d54f600"
         }
       ],
-      "_id": "ab356ded8d86f25da61e003c0aa49d9647f6acee"
+      "_id": "f5b0e03e05c9dc00d61091f2bf190f988ea9db33"
     },
     {
       "definition": "etwas [aufmerksam, prüfend] betrachten (um es kennenzulernen)",
@@ -356,27 +351,24 @@ db.duden.insertMany([
         {
           "example": "<substantiviert>: vom bloßen Ansehen wird man nicht satt",
           "_id": "de1fdabebafe46e3305e962482ff2ea4cebc9492"
-        }
-      ],
-      "_id": "ef54bd3e564d4af19b8576442c772ae08dbf3f6f"
-    },
-    {
-      "definition": "etwas [aufmerksam, prüfend] betrachten (um es kennenzulernen)",
-      "examples": [
-        {
-          "example": "sieh [mal] [einer] an! (umgangssprachlich:  wer hätte das gedacht!)",
-          "_id": "1a1d6f25d8ed11f3257f6150eedca8d897434df8"
         },
         {
-          "example": "[das] sehe [sich] einer an! (umgangssprachlich:  das ist doch nicht zu glauben, ist ganz erstaunlich!)",
-          "_id": "15032a68249b7bd40d9e4e861d6fe3a68a992209"
+          "example": "sieh [mal] [einer] an!",
+          "definition": "umgangssprachlich: wer hätte das gedacht!",
+          "_id": "5118bf710b745fc9d2528f470676c0f624904908"
         },
         {
-          "example": "ansehen kostet nichts! (für das bloße Anschauen muss man nichts bezahlen)",
-          "_id": "0a73ef6fb2b7b0e1ed7a4997df9f800bc7c5f2ca"
+          "example": "[das] sehe [sich] einer an!",
+          "definition": "umgangssprachlich: das ist doch nicht zu glauben, ist ganz erstaunlich!",
+          "_id": "c4b8a1a45816ddb1552c17447c4d3ef003f64acb"
+        },
+        {
+          "example": "ansehen kostet nichts!",
+          "definition": "für das bloße Anschauen muss man nichts bezahlen",
+          "_id": "a73bacaa4fb72d4685592dd1d232f39081169aa4"
         }
       ],
-      "_id": "b8b41478f7ad82392c36e5d4a95a86e86ea3b733"
+      "_id": "111ddb7ef5a319af360ecda17820065d1b580d8d"
     },
     {
       "definition": "in bestimmter Weise aussehen",
@@ -393,15 +385,15 @@ db.duden.insertMany([
       "_id": "99c5e9ba3c9602fbce0162529047ba6f6883ac95"
     },
     {
-      "definition": "",
+      "definition": "in »anzusehen sein«",
       "examples": [
         {
           "example": "anzusehen sein",
-          "definition": "(aussehen: sie ist in diesem Kleid hübsch anzusehen; der Verletzte war schrecklich anzusehen)",
-          "_id": "1d15448c522607f1e0ca5c32c6b996f76dfad115"
+          "definition": "aussehen: sie ist in diesem Kleid hübsch anzusehen; der Verletzte war schrecklich anzusehen",
+          "_id": "9b45ead439d7238c11bf3e175cc09bb1b46596e7"
         }
       ],
-      "_id": "4f5be44061425fe2688755fd22b39aab92636cfd"
+      "_id": "7afd8ad0dad301fbd87d7cf5ed49587a66b24229"
     },
     {
       "definition": "vom Gesicht ablesen können; an der äußeren Erscheinung erkennen",
@@ -449,19 +441,14 @@ db.duden.insertMany([
         {
           "example": "sich als Held, (veraltend:) als Helden ansehen",
           "_id": "48e2e359daa56dc6292a8c69f4ae700ee26ea32e"
-        }
-      ],
-      "_id": "2a6ed9451febb9b7e77027db187a207b30a363bb"
-    },
-    {
-      "definition": "als etwas betrachten, auffassen; für jemanden, etwas halten",
-      "examples": [
+        },
         {
-          "example": "jemanden nicht für voll ansehen (nicht für ganz zurechnungsfähig halten, nicht ernst nehmen)",
-          "_id": "7e13c21ed1de916484a685a05c6a3a15afa468bd"
+          "example": "jemanden nicht für voll ansehen",
+          "definition": "nicht für ganz zurechnungsfähig halten, nicht ernst nehmen",
+          "_id": "0c6d77a539d477efe8055e342b646d5b74db80fd"
         }
       ],
-      "_id": "bb20a2e583c2aa5a00fd405732c04b29756dbbbc"
+      "_id": "40790e67bc2164a7c755ef02ea21b053e28a9ec3"
     },
     {
       "definition": "Zeuge sein; zusehen, ohne etwas dagegen zu unternehmen",
@@ -640,6 +627,60 @@ db.duden.insertMany([
         }
       ],
       "_id": "782d62e7d3dccbd8a770a66fbeb1678ac34fcac9"
+    }
+  ]
+},
+{
+  "word": "wissen lassen, wissenlassen",
+  "stem": "wissen lassen",
+  "definitions": [
+    {
+      "definition": "jemanden in Kenntnis setzen; jemandem Bescheid sagen",
+      "examples": [
+        {
+          "example": "wenn du Hilfe brauchst, lass es mich wissen",
+          "_id": "61ec6867e18ac2bd7c0aaf4263ec2f67655d2bf1"
+        }
+      ],
+      "_id": "3eec2c7f05eaecadcf468450c015480343cd3bce"
+    }
+  ]
+},
+{
+  "word": "zustehen",
+  "stem": "zustehen",
+  "definitions": [
+    {
+      "definition": "etwas sein, worauf jemand einen [rechtmäßigen] Anspruch hat, was jemand zu bekommen hat",
+      "examples": [
+        {
+          "example": "dieses Geld steht ihr zu",
+          "_id": "166b5e217a71dc14aa6a5a1441263fd25150be53"
+        },
+        {
+          "example": "der Partei stehen 78 Mandate zu",
+          "_id": "631d3b3b5ec1977553c06f771dfdb31fad9dd34e"
+        },
+        {
+          "example": "dieses Recht steht jedem zu",
+          "_id": "1458e049f8f7e11350ed016c521219a17ae26be4"
+        }
+      ],
+      "_id": "46c6c449b3fd1d32d854159429ddc252982766e9"
+    },
+    {
+      "definition": "zukommen",
+      "examples": [
+        {
+          "example": "ein Urteil über ihn steht mir nicht zu",
+          "_id": "fbce7acccc700fca1b9e701c867881beaadcf0b8"
+        },
+        {
+          "example": "es steht dir nicht zu, sie zu verdammen",
+          "_id": "3f1249d269732ff705369911b39c63a556c0065f"
+        }
+      ],
+      "_id": "e560ec5e49ceace4e814f1784151d29a3c43ad68"
     }
   ]
 },
