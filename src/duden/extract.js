@@ -40,10 +40,14 @@ module.exports = function extract ($) {
   // Bedeutungsübersicht
   const section = $('h2:contains("Bedeutungsübersicht")').parents('section')
   const div = section.find('div.entry').toArray().map(entry => {
-    const examples = $(entry).children('.term-section').remove()
+    const examples = $(entry)
+      .children('.term-section')
+      .remove()
+      .toArray()
+      .map(example => parse($(example)))
     return {
       definition: $(entry).text().trim(),
-      examples: parse(examples)
+      examples: flatten(examples)
     }
   })
   const ol = section.find('ol > li > a').toArray().map(a => {

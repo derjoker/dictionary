@@ -34,6 +34,27 @@ db.duden.insertMany([
   ]
 },
 {
+  "word": "Anstalten, die",
+  "stem": "Anstalten",
+  "definitions": [
+    {
+      "definition": "Vorbereitungen, Vorkehrungen",
+      "examples": [
+        {
+          "example": "Anstalten zu einer Reise treffen",
+          "_id": "2998d34cfd6cf0a105f7c448211b3adc36230795"
+        },
+        {
+          "example": "[keine] Anstalten machen",
+          "definition": "etwas [nicht] tun wollen, [keine] Absichten zu etwas zeigen: er machte Anstalten wegzugehen",
+          "_id": "8c608f8e54a0aa80dfb156c3b71d803ad5d81a40"
+        }
+      ],
+      "_id": "e156ed62d1975cf419f1f252733d1111bb857c6e"
+    }
+  ]
+},
+{
   "word": "Gedanke, veraltet Gedanken, der",
   "stem": "Gedanke",
   "definitions": [
