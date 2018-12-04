@@ -41,6 +41,7 @@ module.exports = function extract ($) {
   // Bedeutungsübersicht
   const section = $('h2:contains("Bedeutungsübersicht")').parents('section')
   const div = section.find('div.entry').toArray().map(entry => {
+    $(entry).children('figure').remove()
     const examples = $(entry)
       .children('.term-section')
       .remove()

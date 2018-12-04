@@ -336,6 +336,60 @@ db.duden.insertMany([
   ]
 },
 {
+  "word": "Stroh, das",
+  "stem": "Stroh",
+  "definitions": [
+    {
+      "definition": "trockene Halme von ausgedroschenem Getreide",
+      "examples": [
+        {
+          "example": "frisches, trockenes, feuchtes Stroh",
+          "_id": "a7f2dc0cf6af91eb3a033f638615b778829b3190"
+        },
+        {
+          "example": "ein Ballen Stroh",
+          "_id": "ac55fc9608b409a3128fb15f40dc476f3b115d3c"
+        },
+        {
+          "example": "Stroh aufschütten, binden, flechten",
+          "_id": "4a3f003ecadb458658d9c7bf6d36ba7d2e8624c6"
+        },
+        {
+          "example": "auf Stroh, im Stroh schlafen",
+          "_id": "59b63cd87b80082080cc1a243374a611e69cc3fd"
+        },
+        {
+          "example": "das Dach ist mit Stroh gedeckt",
+          "_id": "269289c27271758afdbd308382a19beb8a62e80d"
+        },
+        {
+          "example": "das Haus brannte wie Stroh (lichterloh)",
+          "_id": "1b12fa55acdffb1e79c59b1a56a9f3a7074ae4f4"
+        },
+        {
+          "example": "etwas brennt wie nasses Stroh (schlecht)",
+          "_id": "42ea6236ffd126f5cca51dbfc425f7883e0d4303"
+        },
+        {
+          "example": "das Essen schmeckt wie Stroh (umgangssprachlich; ist trocken, ohne Würze)",
+          "_id": "66e7f6cbe8ad6dfee91af43ffb1726769d81d2f9"
+        },
+        {
+          "example": "Stroh im Kopf haben",
+          "definition": "(umgangssprachlich:  dumm sein)",
+          "_id": "0c7a15554ff29187b382850fc89fb12b8035f68d"
+        },
+        {
+          "example": "leeres Stroh dreschen",
+          "definition": "(umgangssprachlich:  viel Unnötiges, Belangloses reden: bei der Diskussion wurde viel leeres Stroh gedroschen)",
+          "_id": "4417ef462f760cf665c800198f5bc7f0cfda8cfd"
+        }
+      ],
+      "_id": "02948b6c98c223086a93c0fd11494a681c05dae7"
+    }
+  ]
+},
+{
   "word": "ansehen",
   "stem": "ansehen",
   "definitions": [
