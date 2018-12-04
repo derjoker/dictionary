@@ -2,6 +2,31 @@ db = db.getSiblingDB("dictionary");
 db.duden.drop();
 db.duden.insertMany([
 {
+  "word": "Acht, die",
+  "stem": "Acht",
+  "definitions": [
+    {
+      "definition": "Ausschluss einer Person vom Rechtsschutz, wodurch sie vogelfrei wird",
+      "examples": [
+        {
+          "example": "über jemanden die Acht verhängen",
+          "_id": "84c41199e664b9ba362d7e9a9334e28d2c2ab540"
+        },
+        {
+          "example": "jemanden mit der Acht belegen",
+          "_id": "639d863caf0cfb47c6e7348b4439fc926c3fce57"
+        },
+        {
+          "example": "jemanden in Acht und Bann tun",
+          "definition": "Geschichte; aus der weltlichen und kirchlichen Gemeinschaft ausschließengehoben; aus einer Gemeinschaft ausschließen, verdammen",
+          "_id": "ce64c183192472d0723524189fed024b91c20780"
+        }
+      ],
+      "_id": "be6897ea42443f3199cd022128d1f9252432c67e"
+    }
+  ]
+},
+{
   "word": "Adam, der",
   "stem": "Adam",
   "definitions": [
