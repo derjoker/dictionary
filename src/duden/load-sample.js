@@ -18,11 +18,11 @@ db.duden.insertMany([
         },
         {
           "example": "jemanden in Acht und Bann tun",
-          "definition": "Geschichte; aus der weltlichen und kirchlichen Gemeinschaft ausschließengehoben; aus einer Gemeinschaft ausschließen, verdammen",
-          "_id": "ce64c183192472d0723524189fed024b91c20780"
+          "definition": "(1. Geschichte; aus der weltlichen und kirchlichen Gemeinschaft ausschließen.  2. gehoben; aus einer Gemeinschaft ausschließen, verdammen.)",
+          "_id": "e71a6506a23dd4f1962f393f5040790ca6109b84"
         }
       ],
-      "_id": "be6897ea42443f3199cd022128d1f9252432c67e"
+      "_id": "12b212bd9b8b0fa2a92952a02bde38f8503cc8cf"
     }
   ]
 },
@@ -40,21 +40,21 @@ db.duden.insertMany([
       "examples": [
         {
           "example": "bei Adam und Eva anfangen/beginnen",
-          "definition": "umgangssprachlich: in einem Vortrag, bei seinen Ausführungen sehr weit ausholen",
-          "_id": "cdcc3fa9c4c1f511725e4d229f958be32b22bcd6"
+          "definition": "(umgangssprachlich:  in einem Vortrag, bei seinen Ausführungen sehr weit ausholen)",
+          "_id": "e556a5870c469231a649c7a5ab5482c68116a216"
         },
         {
           "example": "seit Adams Zeiten",
-          "definition": "umgangssprachlich: seit je, von jeher, solange man denken kann",
-          "_id": "426b8ffa0d341f96231d212eb2b1a695309c6c5e"
+          "definition": "(umgangssprachlich:  seit je, von jeher, solange man denken kann)",
+          "_id": "8d14c48e6fedffd995263d69ebf606e27229ed29"
         },
         {
           "example": "von Adam und Eva abstammen",
-          "definition": "umgangssprachlich: [von Dingen] sehr alt sein",
-          "_id": "7bcc3c415ac9939c5a71b908d6c97e923056d457"
+          "definition": "(umgangssprachlich:  [von Dingen] sehr alt sein)",
+          "_id": "c6264f71c5013e68a1d55c69b97236be597ba623"
         }
       ],
-      "_id": "dde50a7d7c58dbaf206c9f187fbee09c15cd66ff"
+      "_id": "629f14168888ea330357b2fc47c779e0fc2a5144"
     }
   ]
 },
@@ -71,11 +71,11 @@ db.duden.insertMany([
         },
         {
           "example": "[keine] Anstalten machen",
-          "definition": "etwas [nicht] tun wollen, [keine] Absichten zu etwas zeigen: er machte Anstalten wegzugehen",
-          "_id": "8c608f8e54a0aa80dfb156c3b71d803ad5d81a40"
+          "definition": "(etwas [nicht] tun wollen, [keine] Absichten zu etwas zeigen: er machte Anstalten wegzugehen)",
+          "_id": "34a1805a4e57d4e634cd9dd01e5c291c7d467e17"
         }
       ],
-      "_id": "e156ed62d1975cf419f1f252733d1111bb857c6e"
+      "_id": "fe5bdc9ca4f8f7566cb920629562aeb58bd1264f"
     }
   ]
 },
@@ -152,23 +152,23 @@ db.duden.insertMany([
         },
         {
           "example": "[jemandes] Gedanken lesen [können]",
-          "definition": "[jemandes] Gedanken erraten [können]",
-          "_id": "359d2c7081d87264fd6d97d28d661fcc6cd36fb0"
+          "definition": "([jemandes] Gedanken erraten [können])",
+          "_id": "b3d908dd17691eba254d5f33beddb84f3b6d58bf"
         },
         {
           "example": "sich <Dativ> Gedanken [über jemanden, etwas/wegen jemandes, etwas] machen",
-          "definition": "sich [um jemanden, etwas] sorgen",
-          "_id": "9ecc84ecebfbfe4aa5807e7e12c6035bf4216c6d"
+          "definition": "(sich [um jemanden, etwas] sorgen)",
+          "_id": "03e495f9f907640d926566bdf76c8cad7edbb84a"
         },
         {
           "example": "sich <Dativ> über etwas Gedanken machen",
-          "definition": "über etwas länger nachdenken",
-          "_id": "3add71d46651b6c48c212b9160c78aaf144f11e7"
+          "definition": "(über etwas länger nachdenken)",
+          "_id": "4cef5c03da6a68597e8a4613f06a2084db195838"
         },
         {
           "example": "Gedanken sind [zoll]frei",
-          "definition": "was man denkt, kann einem keiner vorschreiben",
-          "_id": "6a283148305206f6ef99e72b94d3af7d13118c8f"
+          "definition": "(was man denkt, kann einem keiner vorschreiben)",
+          "_id": "81bb21c15683bc518428f35a3f629f52e9c56680"
         },
         {
           "example": "der erste Gedanke ist nicht immer der beste",
@@ -176,7 +176,7 @@ db.duden.insertMany([
           "_id": "0432d0478f9f27c48c786998286f50d82264b0c3"
         }
       ],
-      "_id": "0b19969ef86df1ebebbc5e1cb00e81937081ac82"
+      "_id": "ce2aa7b156f3d52bc312ce18595047e590db1609"
     },
     {
       "definition": "das Denken an etwas",
@@ -191,11 +191,11 @@ db.duden.insertMany([
         },
         {
           "example": "kein Gedanke [daran]!",
-          "definition": "umgangssprachlich: keinesfalls, unmöglich, das kommt nicht infrage!",
-          "_id": "dcc6edc7c98c15b0625a37a48ec503ab80fb7157"
+          "definition": "(umgangssprachlich:  keinesfalls, unmöglich, das kommt nicht infrage!)",
+          "_id": "cac6cd563e2d45b8e9222099ebe20dc154508a04"
         }
       ],
-      "_id": "e4714f9dbfcf5abb02d399c500399861df410f74"
+      "_id": "5e38afb2faf73f0e2009749ea37009dea557c4ed"
     },
     {
       "definition": "Meinung, Ansicht",
@@ -256,11 +256,11 @@ db.duden.insertMany([
       "examples": [
         {
           "example": "[um] einen Gedanken",
-          "definition": "landschaftlich: ein wenig: der Mantel könnte [um] einen Gedanken länger sein",
-          "_id": "ee4c99aec393934388f5e2e8a9fb16e93460913c"
+          "definition": "(landschaftlich:  ein wenig: der Mantel könnte [um] einen Gedanken länger sein)",
+          "_id": "3010b41d3fc71c5882a3feeda460a786cf1597af"
         }
       ],
-      "_id": "ec069d8fbebb45d5f52e48015fc8ab03bca99d30"
+      "_id": "6f379060f48647c4bc28c879628e789145a7910c"
     }
   ]
 },
@@ -327,11 +327,11 @@ db.duden.insertMany([
       "examples": [
         {
           "example": "jemandem durch die Lappen gehen",
-          "definition": "umgangssprachlich: [jemandem] entkommen, entgehen: er ist der Polizei durch die Lappen gegangen; die Wohnung, das Geschäft ist mir ärgerlicherweise durch die Lappen gegangen",
-          "_id": "39e7ea37256b4d3ff4378f9bb9323dcb521cf9b6"
+          "definition": "(umgangssprachlich:  [jemandem] entkommen, entgehen: er ist der Polizei durch die Lappen gegangen; die Wohnung, das Geschäft ist mir ärgerlicherweise durch die Lappen gegangen)",
+          "_id": "ca10cf593a9c3309dd04c9ecb31a88f99207074b"
         }
       ],
-      "_id": "d9e70d8a6156cf53f008b7f76ae84fbdbab67c9b"
+      "_id": "1edb4f106c95dbe7df21acf7f344b2ab053715a5"
     }
   ]
 },
@@ -364,16 +364,16 @@ db.duden.insertMany([
         },
         {
           "example": "[nur] von/vom Ansehen",
-          "definition": "[nur] vom Sehen, nicht mit Namen: er ist mir nur vom Ansehen bekannt",
-          "_id": "46ae477dcd629366d0fe10ff50137b49218fff50"
+          "definition": "([nur] vom Sehen, nicht mit Namen: er ist mir nur vom Ansehen bekannt)",
+          "_id": "360e5fe98301647b0cbbe55156e4a42b66a91b8b"
         },
         {
           "example": "ohne Ansehen der Person",
-          "definition": "ganz gleich, um wen es sich handelt: es müssen alle ohne Ansehen der Person gehört werden",
-          "_id": "bbe1ff222fed905eeaf11a3062d2a3973d54f600"
+          "definition": "(ganz gleich, um wen es sich handelt: es müssen alle ohne Ansehen der Person gehört werden)",
+          "_id": "98dc48fe57135f01c0a332a7e5c953af4cbb7771"
         }
       ],
-      "_id": "f5b0e03e05c9dc00d61091f2bf190f988ea9db33"
+      "_id": "577825fd87092c8171cf7dc7ee7519d7c796124a"
     },
     {
       "definition": "etwas [aufmerksam, prüfend] betrachten (um es kennenzulernen)",
@@ -400,21 +400,21 @@ db.duden.insertMany([
         },
         {
           "example": "sieh [mal] [einer] an!",
-          "definition": "umgangssprachlich: wer hätte das gedacht!",
-          "_id": "5118bf710b745fc9d2528f470676c0f624904908"
+          "definition": "(umgangssprachlich:  wer hätte das gedacht!)",
+          "_id": "3f21a09a8c23c87a7a21bd953d810e578a50a577"
         },
         {
           "example": "[das] sehe [sich] einer an!",
-          "definition": "umgangssprachlich: das ist doch nicht zu glauben, ist ganz erstaunlich!",
-          "_id": "c4b8a1a45816ddb1552c17447c4d3ef003f64acb"
+          "definition": "(umgangssprachlich:  das ist doch nicht zu glauben, ist ganz erstaunlich!)",
+          "_id": "21260b41ab64f27ecfe4df87c16b00206aa27475"
         },
         {
           "example": "ansehen kostet nichts!",
-          "definition": "für das bloße Anschauen muss man nichts bezahlen",
-          "_id": "a73bacaa4fb72d4685592dd1d232f39081169aa4"
+          "definition": "(für das bloße Anschauen muss man nichts bezahlen)",
+          "_id": "a8c7ec0f86f217f0dd04449d8fc5234e119454c2"
         }
       ],
-      "_id": "111ddb7ef5a319af360ecda17820065d1b580d8d"
+      "_id": "3e7632fc6fd2ea9acff5fe63ec3367c3b8e474ec"
     },
     {
       "definition": "in bestimmter Weise aussehen",
@@ -435,11 +435,11 @@ db.duden.insertMany([
       "examples": [
         {
           "example": "anzusehen sein",
-          "definition": "aussehen: sie ist in diesem Kleid hübsch anzusehen; der Verletzte war schrecklich anzusehen",
-          "_id": "9b45ead439d7238c11bf3e175cc09bb1b46596e7"
+          "definition": "(aussehen: sie ist in diesem Kleid hübsch anzusehen; der Verletzte war schrecklich anzusehen)",
+          "_id": "1d15448c522607f1e0ca5c32c6b996f76dfad115"
         }
       ],
-      "_id": "7afd8ad0dad301fbd87d7cf5ed49587a66b24229"
+      "_id": "ceef3047eb628351836a6ad32fc20dd9aedc1664"
     },
     {
       "definition": "vom Gesicht ablesen können; an der äußeren Erscheinung erkennen",
@@ -490,11 +490,11 @@ db.duden.insertMany([
         },
         {
           "example": "jemanden nicht für voll ansehen",
-          "definition": "nicht für ganz zurechnungsfähig halten, nicht ernst nehmen",
-          "_id": "0c6d77a539d477efe8055e342b646d5b74db80fd"
+          "definition": "(nicht für ganz zurechnungsfähig halten, nicht ernst nehmen)",
+          "_id": "26cd2df1662e720998f45cabd4ce30c2317d298d"
         }
       ],
-      "_id": "40790e67bc2164a7c755ef02ea21b053e28a9ec3"
+      "_id": "c53249e32141d510f8629f8c359e1f113de93293"
     },
     {
       "definition": "Zeuge sein; zusehen, ohne etwas dagegen zu unternehmen",

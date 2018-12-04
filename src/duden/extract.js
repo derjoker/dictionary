@@ -21,12 +21,13 @@ module.exports = function extract ($) {
     }
     if (node.find('h3:contains("Wendungen")').length) {
       const spans = node.find('span.iwtext').toArray().map(iwtext => {
-        const kopf = $(iwtext).siblings('span.iw_kopf_info')
-        const rumpf = $(iwtext).siblings('span.iw_rumpf_info')
-        const definition = kopf.text().trim() + ' ' + rumpf.text().trim()
+        const clone = $(iwtext).parent().clone()
+        clone.children('h3').remove()
+        clone.children('span.iwtext').remove()
+        const definition = clone.text().trim()
         return {
           example: $(iwtext).text().trim(),
-          definition: definition.trim()
+          definition
         }
       })
       examples = examples.concat(spans)
