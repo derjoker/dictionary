@@ -14,12 +14,22 @@ if (!DEBUG) writeFileSync(log, '')
 
 const loader = `load${DEBUG ? '-sample' : ''}.js`
 
-writeFileSync(
-  loader,
-  'db = db.getSiblingDB("dictionary");\n' +
-    'db.duden.drop();\n' +
-    'db.duden.insertMany([\n'
-)
+const s = `
+db = db.getSiblingDB("dictionary${DEBUG ? '-dev' : ''}");
+db.duden.drop();
+db.duden.createIndex({
+  "word": "text",
+  "definitions.definition": "text",
+  "definitions.examples.example": "text",
+  "definitions.examples.definition": "text"
+}, {
+  "background": true,
+  "name": "_wd_def_ex_"
+});
+db.duden.insertMany([
+`
+
+writeFileSync(loader, s)
 
 files.forEach(file => {
   console.log(file)

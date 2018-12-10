@@ -1,5 +1,15 @@
-db = db.getSiblingDB("dictionary");
+
+db = db.getSiblingDB("dictionary-dev");
 db.duden.drop();
+db.duden.createIndex({
+  "word": "text",
+  "definitions.definition": "text",
+  "definitions.examples.example": "text",
+  "definitions.examples.definition": "text"
+}, {
+  "background": true,
+  "name": "_wd_def_ex_"
+});
 db.duden.insertMany([
 {
   "word": "Acht, die",
