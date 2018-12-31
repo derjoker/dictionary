@@ -1,10 +1,10 @@
 const Crawler = require('crawler')
 const { writeFileSync } = require('fs')
 
-const log = 'log'
+const log = 'parse.log'
 writeFileSync(log, '')
 
-const duden = 'duden'
+const duden = 'duden.log'
 writeFileSync(duden, '')
 
 function save (links) {

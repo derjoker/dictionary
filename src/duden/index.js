@@ -6,7 +6,7 @@ const extract = require('./extract')
 
 let DEBUG = false
 DEBUG = true
-const path = resolve(__dirname, DEBUG ? 'samples' : 'downloads')
+const path = resolve(__dirname, DEBUG ? 'samples' : 'crawler/downloads')
 const files = readdirSync(path)
 
 const log = 'duden.log'
