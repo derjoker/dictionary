@@ -32,7 +32,6 @@ const crawler = new Crawler({
       console.log(error)
     } else if (response.statusCode !== 200) {
       console.log(response)
-      crawler.queue(response.options.uri)
     } else {
       console.log(response.options.uri)
       const s = response.options.uri.trim().split('/')
