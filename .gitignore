@@ -62,3 +62,4 @@ typings/
 
 # dictionary
 downloads
+*.tar.gz
