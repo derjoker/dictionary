@@ -28,11 +28,11 @@ db.duden.insertMany([
         },
         {
           "example": "jemanden in Acht und Bann tun",
-          "definition": "(1. Geschichte; aus der weltlichen und kirchlichen Gemeinschaft ausschließen.  2. gehoben; aus einer Gemeinschaft ausschließen, verdammen.)",
-          "_id": "e71a6506a23dd4f1962f393f5040790ca6109b84"
+          "definition": "(1. Geschichte; aus der weltlichen und kirchlichen Gemeinschaft ausschließen. 2. gehoben; aus einer Gemeinschaft ausschließen, verdammen.)",
+          "_id": "ca2919e05af9f8e4ba37af711afaac1906e8d45c"
         }
       ],
-      "_id": "12b212bd9b8b0fa2a92952a02bde38f8503cc8cf"
+      "_id": "ac382c05fccc7ed50e4a2faaf49fef492f980fa0"
     }
   ]
 },
@@ -50,21 +50,21 @@ db.duden.insertMany([
       "examples": [
         {
           "example": "bei Adam und Eva anfangen/beginnen",
-          "definition": "(umgangssprachlich:  in einem Vortrag, bei seinen Ausführungen sehr weit ausholen)",
-          "_id": "e556a5870c469231a649c7a5ab5482c68116a216"
+          "definition": "(umgangssprachlich: in einem Vortrag, bei seinen Ausführungen sehr weit ausholen)",
+          "_id": "7a2dfddd3ac097637bab80357596da9d52463823"
         },
         {
           "example": "seit Adams Zeiten",
-          "definition": "(umgangssprachlich:  seit je, von jeher, solange man denken kann)",
-          "_id": "8d14c48e6fedffd995263d69ebf606e27229ed29"
+          "definition": "(umgangssprachlich: seit je, von jeher, solange man denken kann)",
+          "_id": "37391ae80201c8ec50d1cd13ff52826fda6455b4"
         },
         {
           "example": "von Adam und Eva abstammen",
-          "definition": "(umgangssprachlich:  [von Dingen] sehr alt sein)",
-          "_id": "c6264f71c5013e68a1d55c69b97236be597ba623"
+          "definition": "(umgangssprachlich: [von Dingen] sehr alt sein)",
+          "_id": "962138bdf5f59063178de6f67c711da29d201f2f"
         }
       ],
-      "_id": "629f14168888ea330357b2fc47c779e0fc2a5144"
+      "_id": "f7f521fc38ca71a4d037b8f5a18c0eec71ad4f7b"
     }
   ]
 },
@@ -201,11 +201,11 @@ db.duden.insertMany([
         },
         {
           "example": "kein Gedanke [daran]!",
-          "definition": "(umgangssprachlich:  keinesfalls, unmöglich, das kommt nicht infrage!)",
-          "_id": "cac6cd563e2d45b8e9222099ebe20dc154508a04"
+          "definition": "(umgangssprachlich: keinesfalls, unmöglich, das kommt nicht infrage!)",
+          "_id": "5725a21ac332c41e59d33668fcca664207ec4dce"
         }
       ],
-      "_id": "5e38afb2faf73f0e2009749ea37009dea557c4ed"
+      "_id": "c4b1f205602e3bbcde717e15b14a452bfad86ab2"
     },
     {
       "definition": "Meinung, Ansicht",
@@ -266,11 +266,11 @@ db.duden.insertMany([
       "examples": [
         {
           "example": "[um] einen Gedanken",
-          "definition": "(landschaftlich:  ein wenig: der Mantel könnte [um] einen Gedanken länger sein)",
-          "_id": "3010b41d3fc71c5882a3feeda460a786cf1597af"
+          "definition": "(landschaftlich: ein wenig: der Mantel könnte [um] einen Gedanken länger sein)",
+          "_id": "cb877f62c57f7e45f0cf578bab21ac8f9a5985a8"
         }
       ],
-      "_id": "6f379060f48647c4bc28c879628e789145a7910c"
+      "_id": "4ab395bf16e9add991c7cf46be2029193086ec39"
     }
   ]
 },
@@ -279,7 +279,7 @@ db.duden.insertMany([
   "stem": "Lappen",
   "definitions": [
     {
-      "definition": "[minderwertiges] kleineres Stück Stoff, Leder o. Ä.",
+      "definition": "[minderwertiges] kleineres Stück Stoff, Leder o. Ä.",
       "examples": [
         {
           "example": "einen Lappen auswaschen, auswringen",
@@ -290,7 +290,7 @@ db.duden.insertMany([
           "_id": "0e63362094f201ab2af65239537e305b6d2666cb"
         }
       ],
-      "_id": "199ff1e000939bfa973fd8889afd759092246798"
+      "_id": "6609b9e6664ba9cb591476413e1f1ac19a10ec61"
     },
     {
       "definition": "(salopp) Geldschein [mit größerem Wert]",
@@ -337,11 +337,11 @@ db.duden.insertMany([
       "examples": [
         {
           "example": "jemandem durch die Lappen gehen",
-          "definition": "(umgangssprachlich:  [jemandem] entkommen, entgehen: er ist der Polizei durch die Lappen gegangen; die Wohnung, das Geschäft ist mir ärgerlicherweise durch die Lappen gegangen)",
-          "_id": "ca10cf593a9c3309dd04c9ecb31a88f99207074b"
+          "definition": "(umgangssprachlich: [jemandem] entkommen, entgehen: er ist der Polizei durch die Lappen gegangen; die Wohnung, das Geschäft ist mir ärgerlicherweise durch die Lappen gegangen)",
+          "_id": "45f62c0b5c534f149174f1a581d49d6593fb9876"
         }
       ],
-      "_id": "1edb4f106c95dbe7df21acf7f344b2ab053715a5"
+      "_id": "6bf7bec2a8f552c56bfbde590f978cea25dc14d9"
     }
   ]
 },
@@ -386,16 +386,16 @@ db.duden.insertMany([
         },
         {
           "example": "Stroh im Kopf haben",
-          "definition": "(umgangssprachlich:  dumm sein)",
-          "_id": "0c7a15554ff29187b382850fc89fb12b8035f68d"
+          "definition": "(umgangssprachlich: dumm sein)",
+          "_id": "c2259f71f87f9f5cf453c9baf5bb4d5387cd7e7b"
         },
         {
           "example": "leeres Stroh dreschen",
-          "definition": "(umgangssprachlich:  viel Unnötiges, Belangloses reden: bei der Diskussion wurde viel leeres Stroh gedroschen)",
-          "_id": "4417ef462f760cf665c800198f5bc7f0cfda8cfd"
+          "definition": "(umgangssprachlich: viel Unnötiges, Belangloses reden: bei der Diskussion wurde viel leeres Stroh gedroschen)",
+          "_id": "1585064812e83af7531aabde24b9263f6103e383"
         }
       ],
-      "_id": "02948b6c98c223086a93c0fd11494a681c05dae7"
+      "_id": "79203f99b677ad9031d6e7af76f9fe6a03ab019a"
     }
   ]
 },
@@ -464,13 +464,13 @@ db.duden.insertMany([
         },
         {
           "example": "sieh [mal] [einer] an!",
-          "definition": "(umgangssprachlich:  wer hätte das gedacht!)",
-          "_id": "3f21a09a8c23c87a7a21bd953d810e578a50a577"
+          "definition": "(umgangssprachlich: wer hätte das gedacht!)",
+          "_id": "9de2df584b635ce2e4b90f643d1649a36ea1922a"
         },
         {
           "example": "[das] sehe [sich] einer an!",
-          "definition": "(umgangssprachlich:  das ist doch nicht zu glauben, ist ganz erstaunlich!)",
-          "_id": "21260b41ab64f27ecfe4df87c16b00206aa27475"
+          "definition": "(umgangssprachlich: das ist doch nicht zu glauben, ist ganz erstaunlich!)",
+          "_id": "dd06d14373151c96e6f3fae11662618562a28351"
         },
         {
           "example": "ansehen kostet nichts!",
@@ -478,7 +478,7 @@ db.duden.insertMany([
           "_id": "a8c7ec0f86f217f0dd04449d8fc5234e119454c2"
         }
       ],
-      "_id": "3e7632fc6fd2ea9acff5fe63ec3367c3b8e474ec"
+      "_id": "ec3a92584148a692a1103465916fb6c5dc7cfcbe"
     },
     {
       "definition": "in bestimmter Weise aussehen",
