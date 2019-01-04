@@ -27,12 +27,11 @@ db.duden.insertMany([
           "_id": "639d863caf0cfb47c6e7348b4439fc926c3fce57"
         },
         {
-          "example": "jemanden in Acht und Bann tun",
-          "definition": "(1. Geschichte; aus der weltlichen und kirchlichen Gemeinschaft ausschließen. 2. gehoben; aus einer Gemeinschaft ausschließen, verdammen.)",
-          "_id": "ca2919e05af9f8e4ba37af711afaac1906e8d45c"
+          "example": "jemanden in Acht und Bann tun (1. Geschichte; aus der weltlichen und kirchlichen Gemeinschaft ausschließen. 2. gehoben; aus einer Gemeinschaft ausschließen, verdammen.)",
+          "_id": "f68f5d393057a5ef0127255b9f98ac662f452e37"
         }
       ],
-      "_id": "ac382c05fccc7ed50e4a2faaf49fef492f980fa0"
+      "_id": "c8534f4bbd00fe0b42d5e35b69b6fb202f3cc5f0"
     }
   ]
 },
@@ -49,22 +48,19 @@ db.duden.insertMany([
       "definition": "in »bei Adam und Eva anfangen/beginnen« und anderen Wendungen, Redensarten oder Sprichwörtern",
       "examples": [
         {
-          "example": "bei Adam und Eva anfangen/beginnen",
-          "definition": "(umgangssprachlich: in einem Vortrag, bei seinen Ausführungen sehr weit ausholen)",
-          "_id": "7a2dfddd3ac097637bab80357596da9d52463823"
+          "example": "bei Adam und Eva anfangen/beginnen (umgangssprachlich: in einem Vortrag, bei seinen Ausführungen sehr weit ausholen)",
+          "_id": "975d01ca68af2129931000f7642a5424bd189c29"
         },
         {
-          "example": "seit Adams Zeiten",
-          "definition": "(umgangssprachlich: seit je, von jeher, solange man denken kann)",
-          "_id": "37391ae80201c8ec50d1cd13ff52826fda6455b4"
+          "example": "seit Adams Zeiten (umgangssprachlich: seit je, von jeher, solange man denken kann)",
+          "_id": "4c49aa8f2bf5ee7358a7c6385ac271f2712fd811"
         },
         {
-          "example": "von Adam und Eva abstammen",
-          "definition": "(umgangssprachlich: [von Dingen] sehr alt sein)",
-          "_id": "962138bdf5f59063178de6f67c711da29d201f2f"
+          "example": "von Adam und Eva abstammen (umgangssprachlich: [von Dingen] sehr alt sein)",
+          "_id": "98c775ace13a7a326a88cfbf2eae91f25846c6ff"
         }
       ],
-      "_id": "f7f521fc38ca71a4d037b8f5a18c0eec71ad4f7b"
+      "_id": "cba3895b2e952030a41b8068a6f5bf7ef41c880b"
     }
   ]
 },
@@ -80,12 +76,11 @@ db.duden.insertMany([
           "_id": "2998d34cfd6cf0a105f7c448211b3adc36230795"
         },
         {
-          "example": "[keine] Anstalten machen",
-          "definition": "(etwas [nicht] tun wollen, [keine] Absichten zu etwas zeigen: er machte Anstalten wegzugehen)",
-          "_id": "34a1805a4e57d4e634cd9dd01e5c291c7d467e17"
+          "example": "[keine] Anstalten machen (etwas [nicht] tun wollen, [keine] Absichten zu etwas zeigen: er machte Anstalten wegzugehen)",
+          "_id": "5e061570ce584c4a61fb699ab25563e1549ff702"
         }
       ],
-      "_id": "fe5bdc9ca4f8f7566cb920629562aeb58bd1264f"
+      "_id": "995a7d396e66f14f80057faafe1787a232d1be5b"
     }
   ]
 },
@@ -161,32 +156,27 @@ db.duden.insertMany([
           "_id": "b04a01676c964c16509cf17238c4aee94f8c3948"
         },
         {
-          "example": "[jemandes] Gedanken lesen [können]",
-          "definition": "([jemandes] Gedanken erraten [können])",
-          "_id": "b3d908dd17691eba254d5f33beddb84f3b6d58bf"
+          "example": "[jemandes] Gedanken lesen [können] ([jemandes] Gedanken erraten [können])",
+          "_id": "687c4283e1bd0a6a2c187f6286a3e2cc2d4d4da6"
         },
         {
-          "example": "sich <Dativ> Gedanken [über jemanden, etwas/wegen jemandes, etwas] machen",
-          "definition": "(sich [um jemanden, etwas] sorgen)",
-          "_id": "03e495f9f907640d926566bdf76c8cad7edbb84a"
+          "example": "sich <Dativ> Gedanken [über jemanden, etwas/wegen jemandes, etwas] machen (sich [um jemanden, etwas] sorgen)",
+          "_id": "4ff584d97cffc1a3fdd6b1d56787c0950c42ed3a"
         },
         {
-          "example": "sich <Dativ> über etwas Gedanken machen",
-          "definition": "(über etwas länger nachdenken)",
-          "_id": "4cef5c03da6a68597e8a4613f06a2084db195838"
+          "example": "sich <Dativ> über etwas Gedanken machen (über etwas länger nachdenken)",
+          "_id": "60003cdc40d3e66351d1691c76c838597e7e080b"
         },
         {
-          "example": "Gedanken sind [zoll]frei",
-          "definition": "(was man denkt, kann einem keiner vorschreiben)",
-          "_id": "81bb21c15683bc518428f35a3f629f52e9c56680"
+          "example": "Gedanken sind [zoll]frei (was man denkt, kann einem keiner vorschreiben)",
+          "_id": "b3b9b5a6bada5b91c47fd30298f48e3b56e5d55a"
         },
         {
           "example": "der erste Gedanke ist nicht immer der beste",
-          "definition": "",
-          "_id": "0432d0478f9f27c48c786998286f50d82264b0c3"
+          "_id": "b505394b36633d190504042f838e5879922a36f6"
         }
       ],
-      "_id": "ce2aa7b156f3d52bc312ce18595047e590db1609"
+      "_id": "3f0de0d1e648642edc7ac586c72e660559ec2796"
     },
     {
       "definition": "das Denken an etwas",
@@ -200,12 +190,11 @@ db.duden.insertMany([
           "_id": "e726cc5b8bd3838b93d67c9f6c902a73a2f97f53"
         },
         {
-          "example": "kein Gedanke [daran]!",
-          "definition": "(umgangssprachlich: keinesfalls, unmöglich, das kommt nicht infrage!)",
-          "_id": "5725a21ac332c41e59d33668fcca664207ec4dce"
+          "example": "kein Gedanke [daran]! (umgangssprachlich: keinesfalls, unmöglich, das kommt nicht infrage!)",
+          "_id": "205c992a53f4d8e6e8f56151c418b0458b54362f"
         }
       ],
-      "_id": "c4b1f205602e3bbcde717e15b14a452bfad86ab2"
+      "_id": "a6aa9215baa5a8abbb9b8d8b7c80a406e29679db"
     },
     {
       "definition": "Meinung, Ansicht",
@@ -265,12 +254,11 @@ db.duden.insertMany([
       "definition": "in »[um] einen Gedanken«",
       "examples": [
         {
-          "example": "[um] einen Gedanken",
-          "definition": "(landschaftlich: ein wenig: der Mantel könnte [um] einen Gedanken länger sein)",
-          "_id": "cb877f62c57f7e45f0cf578bab21ac8f9a5985a8"
+          "example": "[um] einen Gedanken (landschaftlich: ein wenig: der Mantel könnte [um] einen Gedanken länger sein)",
+          "_id": "6a699bd986ea60ad2565028f9c89eedfa4105125"
         }
       ],
-      "_id": "4ab395bf16e9add991c7cf46be2029193086ec39"
+      "_id": "a34ff7a45857fb8cb72999b6477cdd9dd37aed12"
     }
   ]
 },
@@ -336,12 +324,11 @@ db.duden.insertMany([
       "definition": "in »jemandem durch die Lappen gehen«",
       "examples": [
         {
-          "example": "jemandem durch die Lappen gehen",
-          "definition": "(umgangssprachlich: [jemandem] entkommen, entgehen: er ist der Polizei durch die Lappen gegangen; die Wohnung, das Geschäft ist mir ärgerlicherweise durch die Lappen gegangen)",
-          "_id": "45f62c0b5c534f149174f1a581d49d6593fb9876"
+          "example": "jemandem durch die Lappen gehen (umgangssprachlich: [jemandem] entkommen, entgehen: er ist der Polizei durch die Lappen gegangen; die Wohnung, das Geschäft ist mir ärgerlicherweise durch die Lappen gegangen)",
+          "_id": "5d74f03aa9c0dd9d7e82391cc761b4e37738002a"
         }
       ],
-      "_id": "6bf7bec2a8f552c56bfbde590f978cea25dc14d9"
+      "_id": "56c338dc8eb38aaf0dd5b1a1d91586a1db51aa63"
     }
   ]
 },
@@ -385,17 +372,15 @@ db.duden.insertMany([
           "_id": "66e7f6cbe8ad6dfee91af43ffb1726769d81d2f9"
         },
         {
-          "example": "Stroh im Kopf haben",
-          "definition": "(umgangssprachlich: dumm sein)",
-          "_id": "c2259f71f87f9f5cf453c9baf5bb4d5387cd7e7b"
+          "example": "Stroh im Kopf haben (umgangssprachlich: dumm sein)",
+          "_id": "3ef220b8a9ef7fc8c0d0d39f8b6a71fa9e2abcfc"
         },
         {
-          "example": "leeres Stroh dreschen",
-          "definition": "(umgangssprachlich: viel Unnötiges, Belangloses reden: bei der Diskussion wurde viel leeres Stroh gedroschen)",
-          "_id": "1585064812e83af7531aabde24b9263f6103e383"
+          "example": "leeres Stroh dreschen (umgangssprachlich: viel Unnötiges, Belangloses reden: bei der Diskussion wurde viel leeres Stroh gedroschen)",
+          "_id": "0c7692c0efe27a994de94208d7bc63e72f5b751d"
         }
       ],
-      "_id": "79203f99b677ad9031d6e7af76f9fe6a03ab019a"
+      "_id": "b7614f3de9e62d1a4300179e8547c6cf27e4cccd"
     }
   ]
 },
@@ -427,17 +412,15 @@ db.duden.insertMany([
           "_id": "6cc1dbdac41f7d5ddccc06465f7d2e2cfe5feb95"
         },
         {
-          "example": "[nur] von/vom Ansehen",
-          "definition": "([nur] vom Sehen, nicht mit Namen: er ist mir nur vom Ansehen bekannt)",
-          "_id": "360e5fe98301647b0cbbe55156e4a42b66a91b8b"
+          "example": "[nur] von/vom Ansehen ([nur] vom Sehen, nicht mit Namen: er ist mir nur vom Ansehen bekannt)",
+          "_id": "0a7fcbca8c404036e8233196dcc1f10705f1296c"
         },
         {
-          "example": "ohne Ansehen der Person",
-          "definition": "(ganz gleich, um wen es sich handelt: es müssen alle ohne Ansehen der Person gehört werden)",
-          "_id": "98dc48fe57135f01c0a332a7e5c953af4cbb7771"
+          "example": "ohne Ansehen der Person (ganz gleich, um wen es sich handelt: es müssen alle ohne Ansehen der Person gehört werden)",
+          "_id": "3134838cb0c64ed9c504c0cdf10df1405f0939b4"
         }
       ],
-      "_id": "577825fd87092c8171cf7dc7ee7519d7c796124a"
+      "_id": "0be5a8497ee3bd6635cf1503f330d4ae825e7078"
     },
     {
       "definition": "etwas [aufmerksam, prüfend] betrachten (um es kennenzulernen)",
@@ -463,22 +446,19 @@ db.duden.insertMany([
           "_id": "de1fdabebafe46e3305e962482ff2ea4cebc9492"
         },
         {
-          "example": "sieh [mal] [einer] an!",
-          "definition": "(umgangssprachlich: wer hätte das gedacht!)",
-          "_id": "9de2df584b635ce2e4b90f643d1649a36ea1922a"
+          "example": "sieh [mal] [einer] an! (umgangssprachlich: wer hätte das gedacht!)",
+          "_id": "9319b187b7e15b1addcd67a038ceae55b33ce3ab"
         },
         {
-          "example": "[das] sehe [sich] einer an!",
-          "definition": "(umgangssprachlich: das ist doch nicht zu glauben, ist ganz erstaunlich!)",
-          "_id": "dd06d14373151c96e6f3fae11662618562a28351"
+          "example": "[das] sehe [sich] einer an! (umgangssprachlich: das ist doch nicht zu glauben, ist ganz erstaunlich!)",
+          "_id": "6c2a307debe719baf07002734a35cbfed532d97f"
         },
         {
-          "example": "ansehen kostet nichts!",
-          "definition": "(für das bloße Anschauen muss man nichts bezahlen)",
-          "_id": "a8c7ec0f86f217f0dd04449d8fc5234e119454c2"
+          "example": "ansehen kostet nichts! (für das bloße Anschauen muss man nichts bezahlen)",
+          "_id": "0a73ef6fb2b7b0e1ed7a4997df9f800bc7c5f2ca"
         }
       ],
-      "_id": "ec3a92584148a692a1103465916fb6c5dc7cfcbe"
+      "_id": "b0031c0cca486dc5c42951b652f73d43ddae1b5d"
     },
     {
       "definition": "in bestimmter Weise aussehen",
@@ -498,12 +478,11 @@ db.duden.insertMany([
       "definition": "in »anzusehen sein«",
       "examples": [
         {
-          "example": "anzusehen sein",
-          "definition": "(aussehen: sie ist in diesem Kleid hübsch anzusehen; der Verletzte war schrecklich anzusehen)",
-          "_id": "1d15448c522607f1e0ca5c32c6b996f76dfad115"
+          "example": "anzusehen sein (aussehen: sie ist in diesem Kleid hübsch anzusehen; der Verletzte war schrecklich anzusehen)",
+          "_id": "cacbff4a7869a0e65708e0743cd28d06b3257c3d"
         }
       ],
-      "_id": "ceef3047eb628351836a6ad32fc20dd9aedc1664"
+      "_id": "9814be5562b0a2add69e2767061f2ff34dbbc10d"
     },
     {
       "definition": "vom Gesicht ablesen können; an der äußeren Erscheinung erkennen",
@@ -553,12 +532,11 @@ db.duden.insertMany([
           "_id": "48e2e359daa56dc6292a8c69f4ae700ee26ea32e"
         },
         {
-          "example": "jemanden nicht für voll ansehen",
-          "definition": "(nicht für ganz zurechnungsfähig halten, nicht ernst nehmen)",
-          "_id": "26cd2df1662e720998f45cabd4ce30c2317d298d"
+          "example": "jemanden nicht für voll ansehen (nicht für ganz zurechnungsfähig halten, nicht ernst nehmen)",
+          "_id": "7e13c21ed1de916484a685a05c6a3a15afa468bd"
         }
       ],
-      "_id": "c53249e32141d510f8629f8c359e1f113de93293"
+      "_id": "e4792d42b7d6e51f325b6105d12e9d207ae35bd2"
     },
     {
       "definition": "Zeuge sein; zusehen, ohne etwas dagegen zu unternehmen",

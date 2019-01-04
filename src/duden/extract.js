@@ -28,17 +28,10 @@ module.exports = function extract ($) {
         .find('span.iwtext')
         .toArray()
         .map(iwtext => {
-          const clone = $(iwtext)
-            .parent()
-            .clone()
-          clone.children('h3').remove()
-          clone.children('span.iwtext').remove()
-          const definition = clone.text().trim()
+          const example = $(iwtext).parent()
+          example.find('h3').remove()
           return {
-            example: $(iwtext)
-              .text()
-              .trim(),
-            definition
+            example: example.text().trim()
           }
         })
       examples = examples.concat(spans)
@@ -49,7 +42,7 @@ module.exports = function extract ($) {
     })
   }
 
-  // Bedeutungsübersicht
+  // Bedeutungsübersicht -> Bedeutungen, Beispiele und Wendungen
   const section = $('h2:contains("Bedeutungsübersicht")').parents('section')
   const div = section
     .find('div.entry')

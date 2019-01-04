@@ -5,7 +5,7 @@ const { load } = require('cheerio')
 const extract = require('./extract')
 
 let DEBUG = false
-// DEBUG = true
+DEBUG = true
 const path = resolve(__dirname, DEBUG ? 'samples' : 'crawler/downloads')
 const files = readdirSync(path)
 
